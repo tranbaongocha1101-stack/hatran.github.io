@@ -341,11 +341,18 @@ Investigate the performance of a small fixed-wing UAV under different wind condi
 - Reading literature to have an overall insight of what has been done around the world.
 - SolidWorks usage for 3D modelling, design and opearting simulations of the oscillating rig and rectangular grid.
 - Manufacturing of the rectangular grid by myself - purchasing materials from Bunnings Warehouse and using hand-driller and nails for assembling the wooden bar together to create a complete rectangular grid.
-- 
+- Preparation of detailed technical drawings for profiled, pressed, machined, and tube-lasered parts for the oscillating rig, ensuring dimension accuracy, tolerances and compliance with relevant standards to send to the workshop for manufacturing.
+- Preparation of fabrication drawings for welding and assembly in the workshop, ensuring proper geometric dimensioning and tolerancing (GD&T).
+- Design of other necessary components to mount the UAV wing and instrumentations in the wind tunnel to conduct the experiments.
+- Installation of the oscillating rig, the rectangular grid and the UAV model in the wind tunnel for testing.
+- Conduct the experiments, ensuring no data drift from instrumentations, collecting the data.
+- Analysis of data using both simple and advanced methodologis.
+- Based on the results, establish a mathematic model to predict the performance of arbitrary UAVs in such exterme weather conditions.
 
 ### Key Outcomes
-- Successfully designed, manufactured, and delivered a custom geotechnical drill machine that met all specified requirements.  
-- Ensure smooth and reliable operation of the engine and hydraulic systems.
+- Find the key points in the operations of small fixed-wing UAVs under extreme weather conditions.
+- Estabalish a mathematic model to determine the UAV performance under such weather conditions, which is the input for building the UAV control systems. 
+- Successfully delivered a research at international PhD level with outstanding results. 
 
 </details>
 
