@@ -29,5 +29,5 @@ permalink: /education/
 **Vietnam Maritime University**, Vietnam
 2008 – 2013 
 
-- Graduation project: [Short description]
-- Relevant coursework: Machine Design, Thermodynamics, Strength of Materials
+- Graduation project: Design a tugboat operating in sea areas at the second limitation level with a 500 kW engine.
+- Relevant coursework: Machine Design, Thermodynamics, Strength of Materials\
