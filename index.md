@@ -8,6 +8,15 @@ author_profile: true
 
 ---
 
+<p align="center">
+  <a href="index"><b>Home</b></a> &nbsp;&nbsp; | &nbsp;&nbsp;
+  <a href="projects"><b>Projects</b></a> &nbsp;&nbsp; | &nbsp;&nbsp;
+  <a href="education"><b>Education</b></a> &nbsp;&nbsp; | &nbsp;&nbsp;
+  <a href="contact"><b>Contact</b></a>
+</p>
+
+---
+
 ## Ha Tran
 
 ### Mechanical Design Engineer | Heavy Industrial Machinery | Renewable Energy  | Aerospace, Mining & Marine Systems
