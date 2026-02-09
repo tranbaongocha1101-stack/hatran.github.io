@@ -23,7 +23,7 @@ https://github.com/hatran
 ---
 
 📍 Based in New Zealand  
-🇳🇿 New Zealand Citizen  
+    New Zealand Citizen  
 🌏 Open to relocation and international opportunities  
 
 ---
