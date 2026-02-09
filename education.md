@@ -4,10 +4,6 @@ title: Education
 permalink: /education/
 ---
 
-[Home](index.md) | [Projects](projects.md) | [Education](education.md) | [Contact](contact.md)
-
----
-
 <p align="center">
   <a href="index"><b>Home</b></a> &nbsp;&nbsp; | &nbsp;&nbsp;
   <a href="projects"><b>Projects</b></a> &nbsp;&nbsp; | &nbsp;&nbsp;
