@@ -30,8 +30,11 @@ Holding New Zealand citizenship, I am open to industry opportunities locally and
 
 Explore detailed industry and research projects demonstrating practical engineering delivery:
 
-👉 [View Projects]({{ site.baseurl }}/projects/)  
-👉 [View Skills]({{ site.baseurl }}/skills/)   
-<br>
-👉 [View Education & Research]({{ site.baseurl }}/education/)  
+👉 [View Projects]({{ site.baseurl }}/projects/)
+
+👉 [View Skills]({{ site.baseurl }}/skills/)
+
+👉 [View Education & Research]({{ site.baseurl }}/education/)
+
 👉 [Download CV]({{ site.baseurl }}/files/Ha_Tran_CV.pdf)
+
