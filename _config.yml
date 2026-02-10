@@ -1,24 +1,15 @@
-# Site Settings
 title: "Ha Tran"
 description: "Mechanical Engineer | Heavy Industrial Machinery | Renewable Energy | Aerospace, Mining & Marine Systems"
+
 url: "https://hatrannz.github.io"
 baseurl: "/hatran_mechanical_engineer"
 
-# Author
-author:
-  name: "Ha Tran"
-  bio: "Mechanical Engineer with multidisciplinary experience designing and developing machines and mechanical systems across industry and academia in multicultural environments. Skilled in practical problem-solving, creativity, and delivering high-performance solutions."
-  location: "New Zealand"
-  email: "tranbaongocha1101@gmail.com"
-  github: "hatran_mechanical_engineer"
+theme: jekyll-theme-cayman
 
-# Theme
-theme: jekyll-theme-modernist
-
-# Navigation / Header Menu
 header_pages:
   - index.md
   - projects.md
   - skills.md
   - education.md
   - contact.md
+
