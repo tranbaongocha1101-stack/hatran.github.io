@@ -36,5 +36,5 @@ Explore detailed industry and research projects demonstrating practical engineer
 
 👉 [View Education & Achievements]({{ site.baseurl }}/education/)
 
-👉 [Download CV]({{ '/assets/files/Ha_Tran_CV.pdf' | relative_url }})
+👉 [Download CV]({{ 'Ha Tran - Resume.pdf' | relative_url }})
 
