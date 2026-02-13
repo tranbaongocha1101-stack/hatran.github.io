@@ -36,5 +36,27 @@ Explore detailed industry and research projects demonstrating practical engineer
 
 👉 [View Education & Achievements]({{ site.baseurl }}/education/)
 
-👉 [Download CV]({{ 'Ha Tran - Resume.pdf' | relative_url }})
+ [Download CV]({{ 'Ha Tran - Resume.pdf' | relative_url }})
+
+<style>
+.btn-download {
+  display: inline-block;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(90deg, #0070f3, #005bb5);
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.btn-download:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+  background: linear-gradient(90deg, #005bb5, #003f7f);
+}
+</style>
 
