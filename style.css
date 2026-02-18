@@ -1,0 +1,8 @@
+.headshot {
+  float: right;           /* Moves the image to the top-right */
+  width: 200px;           /* Adjust size as needed */
+  height: auto;           
+  margin: 0 0 15px 20px;  /* Adds spacing below and to the left */
+  border-radius: 50%;     /* Makes it circular */
+  object-fit: cover;      
+}
