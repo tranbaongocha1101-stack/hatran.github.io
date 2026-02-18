@@ -1,0 +1,9 @@
+.justify-text {
+  text-align: justify;      /* Justifies text left and right */
+  text-justify: inter-word; /* Adjusts spacing for better readability */
+  line-height: 1.7;         /* Improves line spacing */
+  max-width: 820px;         /* Keeps paragraphs from being too wide */
+  margin: 0 auto 1.5em auto; /* Centers content and adds spacing below */
+  font-size: 17px;          /* Clean readable font size */
+}
+
