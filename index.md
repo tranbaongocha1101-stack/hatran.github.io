@@ -7,6 +7,7 @@ title: "Ha Tran | Mechanical Engineer"
 
 ### Mechanical Design Engineer | Heavy Industrial Machinery | Renewable Energy | Aerospace, Mining & Marine Systems
 
+<div class="justify-text">
 I am a Mechanical Engineer with combined industry and research experience delivering complex mechanical systems across heavy industrial machinery, renewable energy, aerospace platforms, and marine engineering.
   
 My expertise spans mechanical design, structural strength assessment, hydraulic system integration, aero-hydrodynamic performance analysis, and full product development - from concept design through manufacturing, testing, and commissioning. 
@@ -14,7 +15,7 @@ My expertise spans mechanical design, structural strength assessment, hydraulic 
 I have led redesign and optimization initiatives focused on improving system reliability, reducing structural weight, lowering centre of gravity, and enhancing operational safety under demanding real-world working conditions.
 
 As a New Zealand citizen, I am open to engineering opportunities both locally and internationally within design engineering, heavy equipment, mining machinery, energy systems, and advanced manufacturing sectors.
-
+</div>
 ---
 
 ## Core Capabilities
