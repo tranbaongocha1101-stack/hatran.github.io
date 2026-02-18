@@ -36,8 +36,6 @@ Explore detailed industry and research projects demonstrating practical engineer
 
 👉 [View Education & Achievements]({{ site.baseurl }}/education/)
 
-<a href="{{ '/a Tran - Resume.pdf' | relative_url }}" download class="btn-download">
-  Download CV
-</a>
+👉 [Download CV]({{ 'Ha Tran - Resume.pdf' | relative_url }})
 
 
