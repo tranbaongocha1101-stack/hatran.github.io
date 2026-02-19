@@ -8,15 +8,10 @@
 }
 
 .project-image {
-  text-align: center;
-  margin: 40px 0;
-}
-
-.project-image img {
-  width: 100%;
-  max-width: 700px;   /* Controls max size on desktop */
-  height: auto;
-  border-radius: 8px; /* Slight rounding for premium look */
+  display: block;
+  margin: 40px auto;   /* centers the whole figure */
+  text-align: center;  /* centers caption + inline content */
+  max-width: 700px;    /* keeps figure from stretching too wide */
 }
 
 .project-image figcaption {
