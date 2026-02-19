@@ -20,8 +20,10 @@
 }
 
 .project-image figcaption {
-  text-align: center;   /* Centers caption text */
-  margin-top: 10px;
-  font-size: 0.95rem;
-  color: #555;
+  text-align: center;
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.4;
 }
+
