@@ -71,6 +71,8 @@ Design a custom drill machine for geotechnical purposes to meet specific operati
 - Integration of a higher-capacity rotation motor.
 - Design and implement of a drill rod storage rack. 
 
+---
+
 ### Responsibilities
 
 - Mechanical design of the folding mast with custom hinge solution, rotating stabilizer legs and rotating control console.
@@ -89,6 +91,8 @@ Design a custom drill machine for geotechnical purposes to meet specific operati
 - Communication with suppliers to negotiate pricing and coordinate manufacturing processes, enusring on-time delivery of components and final machine delivery to client.
 - Writing the user manual and commissioning checklists.
 
+---
+
 ### Tools & Methods
 
 - Solid Edge for 3D modelling, mechanical design and simulation.
@@ -98,6 +102,8 @@ Design a custom drill machine for geotechnical purposes to meet specific operati
 - Removal of pivot frame height raisers to lower the center of gravity while ensuring no interference between assemblies.
 - Layout optimization to ensure full cylinder stroke without collision between components.
 - Development of a C# application to automatically extract BOM data from Solid Edge assemblies to Google Sheet, eliminating the need for the third-party services.
+
+---
 
 ### Key Outcomes
 
