@@ -21,9 +21,12 @@ A selection of industry and research projects demonstrating mechanical design, s
 
 <br>
 
-<figure>
-  <img src="./images/geotechnical_drill_machine_r011_4.png" width="600">
-  <figcaption><em>Figure 2: Geotechnical Drill Machine R011 in working position</em></figcaption>
+<figure class="project-image">
+  <img src="{{ '/images/geotechnical_drill_machine_r011_4.png' | relative_url }}" 
+       alt="Geotechnical Drill Machine R011 in working position">
+  <figcaption style="text-align:center;">
+    <em>Figure 1: Geotechnical Drill Machine R011 in working position</em>
+  </figcaption>
 </figure>
 
 <br>
