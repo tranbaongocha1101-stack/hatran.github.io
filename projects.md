@@ -62,6 +62,7 @@ A selection of industry and research projects demonstrating mechanical design, s
 <br>
 
 <div markdown="1">
+  
 ### Project Overview
 
 Design a custom drill machine for geotechnical purposes to meet specific operational and structural requirements:
@@ -73,10 +74,7 @@ Design a custom drill machine for geotechnical purposes to meet specific operati
 - Reduction of drivehead travel distance to 1.5 m (from 1.75 m in the original model).
 - Integration of a higher-capacity rotation motor.
 - Design and implement of a drill rod storage rack.
-
-</div>
-</details>
-
+  
 ### Responsibilities
 
 - Mechanical design of the folding mast with custom hinge solution, rotating stabilizer legs and rotating control console.
@@ -155,6 +153,7 @@ Design a custom drill machine for geotechnical purposes to meet specific operati
 - Achieve a better compact and optimized design compared to previous models.  
 - Ensure smooth and reliable operation of the engine and hydraulic systems.
 
+</div>
 </details>
 
 <br>
