@@ -9,6 +9,9 @@ permalink: /projects/
 A selection of industry and research projects demonstrating mechanical design, structural analysis, aero-hydrodynamic calculations, and hydraulic and electrical system integration.
 <details>
 <summary><strong>Geotechnical Drill Machine R011</strong></summary>
+
+<div markdown="1">
+  
 <br>
 
 <figure class="project-image">
@@ -60,8 +63,6 @@ A selection of industry and research projects demonstrating mechanical design, s
 </figure>
 
 <br>
-
-<div markdown="1">
   
 ### Project Overview
 
@@ -108,6 +109,8 @@ Design a custom drill machine for geotechnical purposes to meet specific operati
 - Successfully designed, manufactured, and delivered a custom geotechnical drill machine that met all specified requirements. 
 - Achieve a more compact and optimized design compared to previous models.  
 - Ensure smooth and reliable operation of the engine and hydraulic systems.
+
+<div>
 
 </details>
 
