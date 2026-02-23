@@ -389,7 +389,7 @@ Design a custom drill machine attached to an excavator:
 <br>
 
 <figure class="project-image">
-  <img src="{{ '/images//working_with_aircraft_model.jpg' | relative_url }}" 
+  <img src="{{ '/images/working_with_aircraft_model.jpg' | relative_url }}" 
        alt="Working with other Aircraft Models">
   <figcaption style="text-align:center;">
     <em>Figure 15: Working with other Aircraft Models</em>
@@ -399,7 +399,7 @@ Design a custom drill machine attached to an excavator:
 <br>
 
 <figure class="project-image">
-  <img src="{{ '/images//passive_grid.jpg' | relative_url }}" 
+  <img src="{{ '/images/passive_grid.jpg' | relative_url }}" 
        alt="Rectangular Grid to Generate Turbulent Flows">
   <figcaption style="text-align:center;">
     <em>Figure 16: Rectangular Grid to Generate Turbulent Flows</em>
