@@ -360,7 +360,7 @@ Design a custom drill machine attached to an excavator:
 
 <figure style="text-align: center;">
   <video width="700" controls>
-    <source src="{{ site.baseurl }}/videos/active_grid_movement.mp4" type="video/mp4">
+    <source src="{{ '/videos/active_grid_movement.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption><em>Video 1: Oscillating Rig Movement in the Wind Tunnel for Wind Gust Generation</em></figcaption>
