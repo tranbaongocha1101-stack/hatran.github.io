@@ -454,7 +454,7 @@ Investigate the performance of a small fixed-wing UAV under different wind condi
 <br>
 
 <figure class="project-image">
-  <img src="{{ '/images//tidal_turbine.jpg' | relative_url }}" 
+  <img src="{{ '/images/tidal_turbine.jpg' | relative_url }}" 
        alt="Tidal Turbine Model">
   <figcaption style="text-align:center;">
     <em>Figure 17: Tidal Turbine Model</em>
