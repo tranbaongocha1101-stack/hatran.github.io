@@ -369,7 +369,7 @@ Design a custom drill machine attached to an excavator:
 <br>
 
 <figure class="project-image">
-  <img src="{{ '/images//active_grid_with_wing.jpg' | relative_url }}" 
+  <img src="{{ '/images/active_grid_with_wing.jpg' | relative_url }}" 
        alt="UAV Wing Testing under Wind Gust and Natural Wind Conditions">
   <figcaption style="text-align:center;">
     <em>Figure 13: UAV Wing Testing under Wind Gust and Natural Wind Conditions</em>
