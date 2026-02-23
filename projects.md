@@ -114,9 +114,7 @@ Design a custom drill machine for geotechnical purposes to meet specific operati
 
 </details>
 
-<br>
-<hr>
-<br>
+---
 
 <details>
 <summary><strong>Geotechnical Drill Machine R010 for Solomon</strong></summary>
