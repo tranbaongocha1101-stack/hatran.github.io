@@ -379,7 +379,7 @@ Design a custom drill machine attached to an excavator:
 <br>
 
 <figure class="project-image">
-  <img src="{{ '/images//kahu_uav.jpg' | relative_url }}" 
+  <img src="{{ '/images/kahu_uav.jpg' | relative_url }}" 
        alt="Kahu UAV from New Zealand Defence Force employed in the study">
   <figcaption style="text-align:center;">
     <em>Figure 14: Kahu UAV from New Zealand Defence Force employed in the study</em>
