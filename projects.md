@@ -9,12 +9,6 @@ markdown: kramdown
 
 A selection of industry and research projects demonstrating mechanical design, structural analysis, aero-hydrodynamic calculations, and hydraulic and electrical system integration.
 
-<p>&nbsp;</p>
-
----
-
-<p>&nbsp;</p>
-
 <details>
 <summary><strong>Geotechnical Drill Machine R011</strong></summary>
   
