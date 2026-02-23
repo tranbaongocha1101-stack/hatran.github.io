@@ -8,6 +8,9 @@ markdown: kramdown
 # Selected Engineering Projects
 
 A selection of industry and research projects demonstrating mechanical design, structural analysis, aero-hydrodynamic calculations, and hydraulic and electrical system integration.
+
+---
+
 <details>
 <summary><strong>Geotechnical Drill Machine R011</strong></summary>
   
@@ -111,16 +114,15 @@ Design a custom drill machine for geotechnical purposes to meet specific operati
 - Achieve a more compact and optimized design compared to previous models.  
 - Ensure smooth and reliable operation of the engine and hydraulic systems.
 
-<div>
+</div>
 
 </details>
 
-<p>&nbsp;</p>  <!-- blank line for spacing -->
-<hr>
-<p>&nbsp;</p>  <!-- blank line for spacing -->
+---
 
 <details>
 <summary><strong>Geotechnical Drill Machine R010 for Solomon</strong></summary>
+  
 <br>
 
 <figure>
@@ -163,12 +165,11 @@ Design a custom drill machine for geotechnical purposes to meet specific operati
 
 </details>
 
-<p>&nbsp;</p>  <!-- blank line for spacing -->
-<hr>
-<p>&nbsp;</p>  <!-- blank line for spacing -->
+---
 
 <details>
 <summary><strong>Geotechnical Drill Machine R009 - a version integrated on the truck</strong></summary>
+  
 <br>
 
 <figure>
@@ -207,15 +208,15 @@ Design a custom drill machine for geotechnical purposes intergrated on a truck f
 - Successfully designed, manufactured, and delivered a custom geotechnical drill machine that met all specified requirements.  
 - Ensure smooth and reliable operation of the engine and hydraulic systems.
 
-<div>
+</div>
+  
 </details>
 
-<p>&nbsp;</p>  <!-- blank line for spacing -->
-<hr>
-<p>&nbsp;</p>  <!-- blank line for spacing -->
+---
 
 <details>
 <summary><strong>Geotechnical Drill Machine R008 - a version for both normal drill function and Cone Penetration Test (CPT)</strong></summary>
+  
 <br>
 
 <figure>
@@ -257,15 +258,15 @@ Design a custom drill machine for geotechnical purposes - acting as a nornal dri
 - Successfully designed, manufactured, and delivered a custom geotechnical drill machine that met all specified requirements.  
 - Ensure smooth and reliable operation of the engine and hydraulic systems.
 
-<div>
+</div>
+  
 </details>
 
-<p>&nbsp;</p>  <!-- blank line for spacing -->
-<hr>
-<p>&nbsp;</p>  <!-- blank line for spacing -->
+---
 
 <details>
 <summary><strong>Drill Machine for Excavator Series R007</strong></summary>
+  
 <br>
 
 <figure>
@@ -300,16 +301,15 @@ Design a custom drill machine attached to an excavator:
 - Successfully designed, manufactured, and delivered a custom geotechnical drill machine that met all specified requirements.  
 - Ensure smooth and reliable operation of the engine and hydraulic systems.
 
-<div>
+</div>
   
 </details>
 
-<p>&nbsp;</p>  <!-- blank line for spacing -->
-<hr>
-<p>&nbsp;</p>  <!-- blank line for spacing -->
+---
 
 <details>
 <summary><strong>Oscillating Rig to Replicate Wind Gust and Natural Wind Conditions - Rectangular Grid to Generate Turbulent Flows - Unmanned Aerial Vehicle (UAV) Testing</strong></summary>
+  
 <br>
 
 <figure>
@@ -387,15 +387,15 @@ Investigate the performance of a small fixed-wing UAV under different wind condi
 - Estabalish a mathematic model to determine the UAV performance under such weather conditions, which is the input for building the UAV control systems. 
 - Successfully delivered a research at international PhD level with outstanding results. 
 
-<div>
+</div>
+
 </details>
 
-<p>&nbsp;</p>  <!-- blank line for spacing -->
-<hr>
-<p>&nbsp;</p>  <!-- blank line for spacing -->
+---
 
 <details>
 <summary><strong>Investigation the performance of a stream tidal turbine under extreme flow conditions</strong></summary>
+  
 <br>
 
 <figure>
@@ -434,7 +434,7 @@ Investigate the performance of a stream tidal turbine under extreme flow conditi
 - Validate the results between experiments and simulations. 
 - Successfully delivered a high-quality research at Master level with outstanding results and a publication on a reputational journal. 
 
-<div>
+</div>
   
 </details>
 
