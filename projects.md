@@ -114,7 +114,9 @@ Design a custom drill machine for geotechnical purposes to meet specific operati
 
 </details>
 
----
+<p>&nbsp;</p>  <!-- blank line for spacing -->
+<hr>
+<p>&nbsp;</p>  <!-- blank line for spacing -->
 
 <details>
 <summary><strong>Geotechnical Drill Machine R010 for Solomon</strong></summary>
@@ -160,9 +162,9 @@ Design a custom drill machine for geotechnical purposes to meet specific operati
 
 </details>
 
-<br>
+<p>&nbsp;</p>  <!-- blank line for spacing -->
 <hr>
-<br>
+<p>&nbsp;</p>  <!-- blank line for spacing -->
 
 <details>
 <summary><strong>Geotechnical Drill Machine R009 - a version integrated on the truck</strong></summary>
@@ -207,9 +209,9 @@ Design a custom drill machine for geotechnical purposes intergrated on a truck f
 <div>
 </details>
 
-<br>
+<p>&nbsp;</p>  <!-- blank line for spacing -->
 <hr>
-<br>
+<p>&nbsp;</p>  <!-- blank line for spacing -->
 
 <details>
 <summary><strong>Geotechnical Drill Machine R008 - a version for both normal drill function and Cone Penetration Test (CPT)</strong></summary>
@@ -257,9 +259,9 @@ Design a custom drill machine for geotechnical purposes - acting as a nornal dri
 <div>
 </details>
 
-<br>
+<p>&nbsp;</p>  <!-- blank line for spacing -->
 <hr>
-<br>
+<p>&nbsp;</p>  <!-- blank line for spacing -->
 
 <details>
 <summary><strong>Drill Machine for Excavator Series R007</strong></summary>
@@ -301,9 +303,9 @@ Design a custom drill machine attached to an excavator:
   
 </details>
 
-<br>
+<p>&nbsp;</p>  <!-- blank line for spacing -->
 <hr>
-<br>
+<p>&nbsp;</p>  <!-- blank line for spacing -->
 
 <details>
 <summary><strong>Oscillating Rig to Replicate Wind Gust and Natural Wind Conditions - Rectangular Grid to Generate Turbulent Flows - Unmanned Aerial Vehicle (UAV) Testing</strong></summary>
@@ -387,9 +389,9 @@ Investigate the performance of a small fixed-wing UAV under different wind condi
 <div>
 </details>
 
-<br>
+<p>&nbsp;</p>  <!-- blank line for spacing -->
 <hr>
-<br>
+<p>&nbsp;</p>  <!-- blank line for spacing -->
 
 <details>
 <summary><strong>Investigation the performance of a stream tidal turbine under extreme flow conditions</strong></summary>
@@ -435,8 +437,4 @@ Investigate the performance of a stream tidal turbine under extreme flow conditi
   
 </details>
 
-<br>
 
-
-<hr>
-<br>
