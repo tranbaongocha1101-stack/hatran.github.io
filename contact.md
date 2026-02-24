@@ -8,23 +8,22 @@ permalink: /contact/
 
 Thank you for visiting my portfolio.
 
-I welcome opportunities in mechanical engineering, fluid dynamics, renewable energy, machinery design, marine engineering, and R&D in engineering.
+I welcome opportunities in **mechanical engineering, heavy equipment design, fluid dynamics, renewable energy, machinery design, marine engineering, and engineering R&D**.
 
-If you would like to discuss a role, collaboration, or technical project, please feel free to get in touch.
+I welcome discussions regarding **roles, collaborations, or technical projects**. Please feel free to get in touch.  
 
 ### 📧 Email  
 tranbaongocha1101@gmail.com  
 
 ### 💼 LinkedIn  
-www.linkedin.com/in/ha-tran-94033215
+[www.linkedin.com/in/ha-tran-940332154](https://www.linkedin.com/in/ha-tran-940332154/)
 
-### 💻 My Webpage
-https://hatrannz.github.io/hatran_mechanical_engineer
+### 💻 Portfolio Website 
+[https://hatrannz.github.io/hatran_mechanical_engineer] (https://hatrannz.github.io/hatran_mechanical_engineer)
 
 ---
 
-📍 Based in New Zealand  
-    New Zealand Citizen  
+📍 Based in New Zealand | New Zealand Citizen  
 🌏 Open to relocation and international opportunities  
 
 ---
