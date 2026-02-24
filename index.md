@@ -10,10 +10,18 @@ title: "Ha Tran | Mechanical Engineer"
 ### Mechanical Design Engineer | Heavy Industrial Machinery | Renewable Energy | Aerospace, Mining & Marine Systems
 
 I am a Mechanical Engineer with combined industry and research experience delivering complex mechanical systems across heavy industrial machinery, renewable energy, aerospace platforms, and marine engineering.
-  
-My expertise spans mechanical design, structural strength assessment, hydraulic system integration, aero-hydrodynamic performance analysis, and full product development - from concept design through manufacturing, testing, and commissioning. 
 
-I have led redesign and optimization initiatives focused on improving system reliability, reducing structural weight, lowering centre of gravity, and enhancing operational safety under demanding real-world working conditions.
+I hold a **PhD and Master’s in Mechanical Engineering** from the University of Auckland, where my research translated into **high-impact engineering solutions**, including UAV aerodynamic performance under extreme wind conditions and tidal turbine hydrodynamics.
+
+I excel in:
+
+- **End-to-end engineering delivery** – from conceptual design to detailed engineering, manufacturing, and commissioning.  
+- **Mechanical and hydraulic systems integration** – optimising reliability, performance, and maintainability.  
+- **Simulation and analysis** – structural FEA, CFD, and experimental validation to inform design decisions.  
+- **Supplier and stakeholder coordination** – including offshore manufacturing, fabrication, and commissioning support.  
+- **Design for Manufacture & Assembly (DFMA)** – GD&T, fabrication drawings, and layout optimisation to reduce cost and improve reliability.
+
+I combine **technical expertise** with practical problem-solving under real-world constraints, delivering projects that meet client requirements, comply with safety standards, and perform reliably in extreme environments.
 
 As a New Zealand citizen, I am open to engineering opportunities both locally and internationally within design engineering, heavy equipment, mining machinery, energy systems, and advanced manufacturing sectors.
 
@@ -21,12 +29,21 @@ As a New Zealand citizen, I am open to engineering opportunities both locally an
 
 ## Core Capabilities
 
-- Mechanical system design and optimization  
-- Structural analysis (hand calculations & FEA – ANSYS)  
+- Mechanical system design and optimization
+- Structural analysis (hand calculations & FEA – ANSYS)
+- CFD
+- Design for Manufacturing and Assembly (DFMA)
 - Aero-hydrodynamic performance analysis  
-- Hydraulic system design and pipe routing  
-- Heavy equipment and machinery development  
-- Engineering documentation, fabrication drawings & BOM automation  
+- Hydraulic system integration and pipe routing  
+- Heavy equipment and machinery development
+- Experimental testing
+- UAV and renewable energy systems
+- Engineering documentation, technical & fabrication drawings
+- Commissioning support
+- Reliability & maintainability
+- Data acquisition & analysis
+- Performance modelling
+- Engineering automation
 
 ---
 
