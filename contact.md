@@ -19,7 +19,7 @@ tranbaongocha1101@gmail.com
 [www.linkedin.com/in/ha-tran-940332154](https://www.linkedin.com/in/ha-tran-940332154/)
 
 ### 💻 Portfolio Website  
-[https://hatrannz.github.io/hatran_mechanical_engineer](https://hatrannz.github.io/hatran_mechanical_engineer)
+https://hatrannz.github.io/hatran_mechanical_engineer/
 
 ---
 
