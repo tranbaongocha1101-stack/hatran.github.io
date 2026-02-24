@@ -13,13 +13,13 @@ I welcome opportunities in **mechanical engineering, heavy equipment design, flu
 I welcome discussions regarding **roles, collaborations, or technical projects**. Please feel free to get in touch.  
 
 ### 📧 Email  
-tranbaongocha1101@gmail.com  
+[tranbaongocha1101@gmail.com](mailto:tranbaongocha1101@gmail.com)    
 
 ### 💼 LinkedIn  
-[www.linkedin.com/in/ha-tran-940332154](https://www.linkedin.com/in/ha-tran-940332154/)
+[Ha Tran – Mechanical Engineer, PhD](https://www.linkedin.com/in/ha-tran-940332154) 
 
 ### 💻 Portfolio Website  
-https://hatrannz.github.io/hatran_mechanical_engineer/
+[Portfolio](https://hatrannz.github.io/hatran_mechanical_engineer/)  
 
 ---
 
