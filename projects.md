@@ -60,7 +60,7 @@ Core strengths include design ownership, DFM/DFA, GD&T, supplier coordination, c
   <img src="{{ '/images/geotechnical_drill_machine_r011_2.png' | relative_url }}" 
        alt="Figure 5: R011 Control Console">
   <figcaption style="text-align:center;">
-    <em>Figure 5: Figure 5: R011 Control Console</em>
+    <em>Figure 5: R011 Control Console</em>
   </figcaption>
 </figure>
 
