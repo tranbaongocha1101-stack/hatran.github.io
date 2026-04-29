@@ -1,73 +1,144 @@
----
+﻿---
 layout: page
 title: Skills
 permalink: /skills/
 ---
 
-# Skills
+<div class="page-hero">
+  <h1>Skills &amp; Capabilities</h1>
+  <p>Mechanical design engineer specialising in heavy equipment, hydraulic machinery, and aero-hydrodynamic systems. Strong track record delivering concept-to-commissioning engineering solutions with emphasis on manufacturability, reliability, and practical project outcomes.</p>
+</div>
 
-Mechanical design engineer specialising in heavy equipment, hydraulic machinery, and aero-hydrodynamic systems. Strong track record delivering concept-to-commissioning engineering solutions with emphasis on manufacturability, reliability, and practical project outcomes.
+<section class="skills-section">
 
----
+  <h2>Core Competencies</h2>
+  <div class="badge-grid">
+    <span class="badge badge-primary">Mechanical System Design</span>
+    <span class="badge badge-primary">Heavy Equipment Development</span>
+    <span class="badge badge-primary">Hydraulic System Integration</span>
+    <span class="badge badge-primary">Structural Analysis</span>
+    <span class="badge badge-primary">FEA (ANSYS)</span>
+    <span class="badge badge-primary">CFD</span>
+    <span class="badge badge-primary">DFMA</span>
+    <span class="badge badge-primary">GD&amp;T</span>
+    <span class="badge badge-primary">Manufacturing Drawings</span>
+    <span class="badge badge-primary">Fabrication Design</span>
+    <span class="badge badge-primary">System Packaging</span>
+    <span class="badge badge-primary">Layout Optimisation</span>
+    <span class="badge badge-primary">Commissioning Support</span>
+    <span class="badge badge-primary">Supplier Coordination</span>
+    <span class="badge badge-primary">Design Verification</span>
+    <span class="badge badge-primary">Reliability Engineering</span>
+    <span class="badge badge-primary">Maintainability</span>
+    <span class="badge badge-primary">BOM Management</span>
+    <span class="badge badge-primary">Engineering Automation</span>
+    <span class="badge badge-primary">Experimental Testing</span>
+    <span class="badge badge-primary">Technical Documentation</span>
+    <span class="badge badge-primary">Aero-Hydrodynamic Analysis</span>
+  </div>
 
-## Core Competencies
+  <h2>Engineering Capability</h2>
+  <div class="capability-cards">
 
-Mechanical design • Heavy equipment development • Hydraulic system integration • Structural analysis • FEA • CFD • DFMA • GD&T • Manufacturing drawings • Fabrication design • System packaging • Layout optimisation • Commissioning support • Supplier coordination • Design verification • Reliability engineering • Maintainability • BOM management • Engineering automation • Experimental testing • Technical documentation
+    <div class="capability-card">
+      <h3>Mechanical System Design &amp; Development</h3>
+      <p>Concept design, detailed design, redesign, and optimisation of mobile and industrial machinery including complex assemblies and drivetrain systems through manufacture and commissioning.</p>
+    </div>
 
----
+    <div class="capability-card">
+      <h3>Structural Analysis &amp; Strength Verification</h3>
+      <p>Classical hand calculations and FEA validation (ANSYS) addressing load cases, fatigue considerations, structural integrity, and operational reliability.</p>
+    </div>
 
-## Engineering Capability
+    <div class="capability-card">
+      <h3>Hydraulic System Design &amp; Integration</h3>
+      <p>Hydraulic component selection, pipework routing, flow and pressure calculations, packaging optimisation, and performance validation for heavy machinery.</p>
+    </div>
 
-**Mechanical System Design & Development**  
-Concept design, detailed design, redesign, and optimisation of mobile and industrial machinery including complex assemblies and drivetrain systems through manufacture and commissioning.
+    <div class="capability-card">
+      <h3>Aero-Hydrodynamic Analysis &amp; Experimental Research</h3>
+      <p>Analytical, numerical, and experimental investigation of aerodynamic and hydrodynamic systems operating in turbulent and unsteady flow environments.</p>
+    </div>
 
-**Structural Analysis & Strength Verification**  
-Classical hand calculations and FEA validation (ANSYS) addressing load cases, fatigue considerations, structural integrity, and operational reliability.
+    <div class="capability-card">
+      <h3>Design for Manufacture &amp; Assembly (DFMA)</h3>
+      <p>Development of fabrication drawings (including GD&amp;T), supplier coordination, and cost-effective engineering solutions optimised for real-world manufacturing constraints.</p>
+    </div>
 
-**Hydraulic System Design & Integration**  
-Hydraulic component selection, pipework routing, flow and pressure calculations, packaging optimisation, and performance validation for heavy machinery.
+  </div>
 
-**Aero-Hydrodynamic Analysis & Experimental Research**  
-Analytical, numerical, and experimental investigation of aerodynamic and hydrodynamic systems operating in turbulent and unsteady flow environments.
+  <h2>Engineering Methods</h2>
+  <div class="badge-grid">
+    <span class="badge badge-secondary">Concept Development &amp; Design Iteration</span>
+    <span class="badge badge-secondary">Layout Optimisation &amp; Interference Management</span>
+    <span class="badge badge-secondary">Design Verification &amp; Validation</span>
+    <span class="badge badge-secondary">Risk-Aware &amp; Safety-Focused Design</span>
+    <span class="badge badge-secondary">Supplier Engagement &amp; Manufacturing Support</span>
+    <span class="badge badge-secondary">Commissioning Preparation &amp; Technical Documentation</span>
+    <span class="badge badge-secondary">Engineering Automation &amp; Workflow Optimisation</span>
+  </div>
 
-**Design for Manufacture & Assembly (DFMA)**  
-Development of fabrication drawings (including GD&T), supplier coordination, and cost-effective engineering solutions.
+  <h2>Software &amp; Engineering Tools</h2>
+  <div class="software-groups">
 
----
+    <div class="software-group">
+      <h3>CAD &amp; Design</h3>
+      <div class="badge-grid">
+        <span class="badge badge-tool">Solid Edge</span>
+        <span class="badge badge-tool">SolidWorks</span>
+        <span class="badge badge-tool">Autodesk Inventor</span>
+        <span class="badge badge-tool">Creo</span>
+        <span class="badge badge-tool">AutoCAD</span>
+      </div>
+      <p class="software-note">Parametric modelling, assemblies, drawing generation, tolerance control</p>
+    </div>
 
-## Engineering Methods
+    <div class="software-group">
+      <h3>Simulation &amp; Analysis</h3>
+      <div class="badge-grid">
+        <span class="badge badge-tool">ANSYS Structural FEA</span>
+        <span class="badge badge-tool">ANSYS CFD</span>
+      </div>
+      <p class="software-note">Engineering calculations, system modelling, and simulation programs</p>
+    </div>
 
-- Concept development and design iteration
-- Layout optimisation and interference management
-- Design verification and validation
-- Risk-aware engineering and safety-focused design
-- Supplier engagement and manufacturing support
-- Commissioning preparation and technical documentation
-- Engineering automation and workflow optimisation
+    <div class="software-group">
+      <h3>Automation &amp; Data</h3>
+      <div class="badge-grid">
+        <span class="badge badge-tool">C#</span>
+        <span class="badge badge-tool">Google Sheets</span>
+      </div>
+      <p class="software-note">Engineering workflow automation, BOM extraction tools, procurement tracking, and inventory control</p>
+    </div>
 
----
+  </div>
 
-## Software & Engineering Tools
+  <h2>Professional Strengths</h2>
+  <div class="strengths-list">
+    <div class="strength-item">
+      <span class="strength-icon" aria-hidden="true">&#9654;</span>
+      <span>End-to-end engineering delivery (concept &rarr; detailed design &rarr; manufacture &rarr; commissioning)</span>
+    </div>
+    <div class="strength-item">
+      <span class="strength-icon" aria-hidden="true">&#9654;</span>
+      <span>Heavy equipment redesign for reliability, maintainability, and performance improvement</span>
+    </div>
+    <div class="strength-item">
+      <span class="strength-icon" aria-hidden="true">&#9654;</span>
+      <span>Mechanical and hydraulic system integration</span>
+    </div>
+    <div class="strength-item">
+      <span class="strength-icon" aria-hidden="true">&#9654;</span>
+      <span>Supplier and fabricator coordination including offshore manufacturing</span>
+    </div>
+    <div class="strength-item">
+      <span class="strength-icon" aria-hidden="true">&#9654;</span>
+      <span>Clear technical documentation and commissioning support</span>
+    </div>
+    <div class="strength-item">
+      <span class="strength-icon" aria-hidden="true">&#9654;</span>
+      <span>Practical engineering decision-making under cost, schedule, and manufacturing constraints</span>
+    </div>
+  </div>
 
-**CAD & Design**
-- Solid Edge, SolidWorks, Inventor, Creo, AutoCAD
-- Parametric modelling, assemblies, drawing generation, tolerance control
-
-**Simulation & Analysis**
-- ANSYS (Structural FEA, CFD) and other simulation programs
-- Engineering calculations and system modelling
-
-**Automation & Data**
-- C# (engineering workflow automation and BOM extraction tools)
-- Google Sheets (BOM management, procurement tracking, inventory control)
-
----
-
-## Professional Strengths
-
-- End-to-end engineering delivery (concept → detailed design → manufacture → commissioning)
-- Heavy equipment redesign for reliability, maintainability, and performance improvement
-- Mechanical and hydraulic system integration
-- Supplier and fabricator coordination including offshore manufacturing
-- Clear technical documentation and commissioning support
-- Practical engineering decision-making under cost, schedule, and manufacturing constraints
+</section>
