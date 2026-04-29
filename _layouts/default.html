@@ -7,6 +7,27 @@
   <meta name="theme-color" content="#1B3A5C">
   <title>{% if page.title and page.title != site.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} — Mechanical Design Engineer{% endif %}</title>
 
+  <!-- Open Graph / LinkedIn preview -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="{{ page.url | absolute_url }}">
+  <meta property="og:title"       content="{% if page.title and page.title != site.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} — Mechanical Design Engineer{% endif %}">
+  <meta property="og:description" content="{{ page.description | default: site.description | xml_escape }}">
+  <meta property="og:image"       content="{{ '/images/headshot_photo.jpeg' | absolute_url }}">
+  <meta property="og:locale"      content="en_NZ">
+
+  <!-- Twitter / X card -->
+  <meta name="twitter:card"        content="summary">
+  <meta name="twitter:title"       content="{{ site.title }} — Mechanical Design Engineer">
+  <meta name="twitter:description" content="{{ site.description | xml_escape }}">
+  <meta name="twitter:image"       content="{{ '/images/headshot_photo.jpeg' | absolute_url }}">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <!-- Favicon (add favicon.ico / favicon.svg to repo root to activate) -->
+  <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
+  <link rel="alternate icon"            href="{{ '/favicon.ico' | relative_url }}">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
