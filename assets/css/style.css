@@ -2082,3 +2082,475 @@ figure video {
 
   .award-item { padding: var(--sp-sm) var(--sp-md); gap: var(--sp-sm); }
 }
+
+
+/* -----------------------------------------------
+   CONTACT PAGE
+----------------------------------------------- */
+.contact-section {
+  margin-top: var(--sp-xl);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: var(--sp-2xl);
+  align-items: start;
+}
+
+
+/* -----------------------------------------------
+   CONTACT CARDS
+----------------------------------------------- */
+.contact-cards {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-md);
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-lg);
+  padding: var(--sp-lg) var(--sp-xl);
+  background: var(--c-white);
+  border: 1px solid var(--c-border);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+  color: var(--c-text);
+  transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+  border-left: 4px solid transparent;
+}
+.contact-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateX(4px);
+  text-decoration: none;
+  color: var(--c-text);
+  border-left-color: var(--c-accent);
+}
+
+/* CV download card — amber accent */
+.contact-card-cv {
+  border-left-color: var(--c-accent);
+  background: linear-gradient(to right, #FFF8EE, var(--c-white));
+}
+.contact-card-cv:hover {
+  background: linear-gradient(to right, #FFF0D6, var(--c-white));
+}
+
+/* Location card — not a link, no hover transform */
+.contact-card-location {
+  cursor: default;
+  background: var(--c-surface);
+}
+.contact-card-location:hover {
+  transform: none;
+  box-shadow: var(--shadow-sm);
+  border-left-color: var(--c-primary);
+}
+
+.contact-card-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--r-md);
+  background: var(--c-primary);
+  color: var(--c-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.2s;
+}
+.contact-card:hover .contact-card-icon { background: var(--c-primary-dark); }
+.contact-card-cv .contact-card-icon { background: var(--c-accent); }
+.contact-card-cv:hover .contact-card-icon { background: var(--c-accent-light); }
+.contact-card-location .contact-card-icon { background: var(--c-surface-alt); color: var(--c-text-muted); }
+
+.contact-card-body {
+  flex: 1;
+  min-width: 0;
+}
+.contact-card-body h3 {
+  margin: 0 0 2px;
+  font-size: 0.95rem;
+  color: var(--c-primary);
+}
+.contact-card-body p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--c-text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contact-card-arrow {
+  font-size: 1.4rem;
+  color: var(--c-text-muted);
+  flex-shrink: 0;
+  transition: color 0.15s, transform 0.15s;
+  line-height: 1;
+}
+.contact-card:hover .contact-card-arrow {
+  color: var(--c-accent);
+  transform: translateX(3px);
+}
+
+
+/* -----------------------------------------------
+   AVAILABILITY PANEL
+----------------------------------------------- */
+.contact-availability {
+  background: var(--c-primary);
+  border-radius: var(--r-lg);
+  padding: var(--sp-xl);
+  color: var(--c-white);
+  box-shadow: var(--shadow-md);
+  position: sticky;
+  top: calc(var(--nav-h) + var(--sp-lg));
+}
+
+.contact-availability h2 {
+  color: var(--c-white);
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+  padding-bottom: var(--sp-sm);
+  margin-top: 0;
+  margin-bottom: var(--sp-lg);
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.availability-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--sp-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-sm);
+}
+.availability-list li {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-sm);
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.85);
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.avail-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--c-accent);
+  flex-shrink: 0;
+}
+
+.relocation-badge {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-sm);
+  background: rgba(255,255,255,0.10);
+  border: 1px solid rgba(255,255,255,0.20);
+  border-radius: var(--r-md);
+  padding: var(--sp-md);
+  margin-bottom: var(--sp-xl);
+}
+
+.relocation-icon {
+  font-size: 1.3rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.relocation-badge strong {
+  display: block;
+  font-size: 0.88rem;
+  color: var(--c-white);
+  margin-bottom: 2px;
+}
+
+.relocation-badge span {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.65);
+  line-height: 1.4;
+}
+
+/* CV download button inside panel */
+.btn-cv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-sm);
+  width: 100%;
+  padding: 12px var(--sp-lg);
+  background: var(--c-accent);
+  color: var(--c-white);
+  border-radius: var(--r-sm);
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.15s;
+  border: none;
+}
+.btn-cv:hover {
+  background: var(--c-accent-light);
+  text-decoration: none;
+  color: var(--c-white);
+  transform: translateY(-1px);
+}
+
+
+/* -----------------------------------------------
+   CONTACT — MOBILE
+----------------------------------------------- */
+@media (max-width: 760px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  .contact-availability {
+    position: static;
+    order: -1;  /* panel above cards on mobile */
+  }
+  .contact-card-body p {
+    white-space: normal;
+  }
+}
+
+
+/* -----------------------------------------------
+   CONTACT PAGE
+----------------------------------------------- */
+.contact-section {
+  margin-top: var(--sp-xl);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: var(--sp-2xl);
+  align-items: start;
+}
+
+
+/* -----------------------------------------------
+   CONTACT CARDS
+----------------------------------------------- */
+.contact-cards {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-md);
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-lg);
+  padding: var(--sp-lg) var(--sp-xl);
+  background: var(--c-white);
+  border: 1px solid var(--c-border);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+  color: var(--c-text);
+  transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+  border-left: 4px solid transparent;
+}
+.contact-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateX(4px);
+  text-decoration: none;
+  color: var(--c-text);
+  border-left-color: var(--c-accent);
+}
+
+/* CV download card — amber accent */
+.contact-card-cv {
+  border-left-color: var(--c-accent);
+  background: linear-gradient(to right, #FFF8EE, var(--c-white));
+}
+.contact-card-cv:hover {
+  background: linear-gradient(to right, #FFF0D6, var(--c-white));
+}
+
+/* Location card — not a link, no hover transform */
+.contact-card-location {
+  cursor: default;
+  background: var(--c-surface);
+}
+.contact-card-location:hover {
+  transform: none;
+  box-shadow: var(--shadow-sm);
+  border-left-color: var(--c-primary);
+}
+
+.contact-card-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--r-md);
+  background: var(--c-primary);
+  color: var(--c-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.2s;
+}
+.contact-card:hover .contact-card-icon { background: var(--c-primary-dark); }
+.contact-card-cv .contact-card-icon { background: var(--c-accent); }
+.contact-card-cv:hover .contact-card-icon { background: var(--c-accent-light); }
+.contact-card-location .contact-card-icon { background: var(--c-surface-alt); color: var(--c-text-muted); }
+
+.contact-card-body {
+  flex: 1;
+  min-width: 0;
+}
+.contact-card-body h3 {
+  margin: 0 0 2px;
+  font-size: 0.95rem;
+  color: var(--c-primary);
+}
+.contact-card-body p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--c-text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contact-card-arrow {
+  font-size: 1.4rem;
+  color: var(--c-text-muted);
+  flex-shrink: 0;
+  transition: color 0.15s, transform 0.15s;
+  line-height: 1;
+}
+.contact-card:hover .contact-card-arrow {
+  color: var(--c-accent);
+  transform: translateX(3px);
+}
+
+
+/* -----------------------------------------------
+   AVAILABILITY PANEL
+----------------------------------------------- */
+.contact-availability {
+  background: var(--c-primary);
+  border-radius: var(--r-lg);
+  padding: var(--sp-xl);
+  color: var(--c-white);
+  box-shadow: var(--shadow-md);
+  position: sticky;
+  top: calc(var(--nav-h) + var(--sp-lg));
+}
+
+.contact-availability h2 {
+  color: var(--c-white);
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+  padding-bottom: var(--sp-sm);
+  margin-top: 0;
+  margin-bottom: var(--sp-lg);
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.availability-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--sp-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-sm);
+}
+.availability-list li {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-sm);
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.85);
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.avail-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--c-accent);
+  flex-shrink: 0;
+}
+
+.relocation-badge {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-sm);
+  background: rgba(255,255,255,0.10);
+  border: 1px solid rgba(255,255,255,0.20);
+  border-radius: var(--r-md);
+  padding: var(--sp-md);
+  margin-bottom: var(--sp-xl);
+}
+
+.relocation-icon {
+  font-size: 1.3rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.relocation-badge strong {
+  display: block;
+  font-size: 0.88rem;
+  color: var(--c-white);
+  margin-bottom: 2px;
+}
+
+.relocation-badge span {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.65);
+  line-height: 1.4;
+}
+
+/* CV download button inside panel */
+.btn-cv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-sm);
+  width: 100%;
+  padding: 12px var(--sp-lg);
+  background: var(--c-accent);
+  color: var(--c-white);
+  border-radius: var(--r-sm);
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.15s;
+  border: none;
+}
+.btn-cv:hover {
+  background: var(--c-accent-light);
+  text-decoration: none;
+  color: var(--c-white);
+  transform: translateY(-1px);
+}
+
+
+/* -----------------------------------------------
+   CONTACT — MOBILE
+----------------------------------------------- */
+@media (max-width: 760px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  .contact-availability {
+    position: static;
+    order: -1;  /* panel above cards on mobile */
+  }
+  .contact-card-body p {
+    white-space: normal;
+  }
+}

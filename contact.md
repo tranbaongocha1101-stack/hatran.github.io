@@ -1,33 +1,110 @@
----
+﻿---
 layout: page
 title: Contact
 permalink: /contact/
 ---
 
-# Contact
+<div class="page-hero">
+  <h1>Get in Touch</h1>
+  <p>I welcome discussions about engineering roles, collaborations, and technical projects in mechanical design, heavy equipment, fluid dynamics, renewable energy, and engineering R&amp;D.</p>
+</div>
 
-Thank you for visiting my portfolio.
+<section class="contact-section">
 
-I welcome opportunities in **mechanical engineering, heavy equipment design, fluid dynamics, renewable energy, machinery design, marine engineering, and engineering R&D**.
+  <div class="contact-grid">
 
-I welcome discussions regarding **roles, collaborations, or technical projects**. Please feel free to get in touch.  
+    <!-- Contact cards -->
+    <div class="contact-cards">
 
-### 📧 Email  
-[tranbaongocha1101@gmail.com](mailto:tranbaongocha1101@gmail.com)    
+      <a href="mailto:tranbaongocha1101@gmail.com" class="contact-card">
+        <div class="contact-card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        </div>
+        <div class="contact-card-body">
+          <h3>Email</h3>
+          <p>tranbaongocha1101@gmail.com</p>
+        </div>
+        <span class="contact-card-arrow" aria-hidden="true">&#8250;</span>
+      </a>
 
-### 💼 LinkedIn  
-[Ha Tran – Mechanical Engineer, PhD](https://www.linkedin.com/in/ha-tran-940332154) 
+      <a href="https://www.linkedin.com/in/ha-tran-940332154" class="contact-card" target="_blank" rel="noopener noreferrer">
+        <div class="contact-card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </div>
+        <div class="contact-card-body">
+          <h3>LinkedIn</h3>
+          <p>Ha Tran &mdash; Mechanical Engineer, PhD</p>
+        </div>
+        <span class="contact-card-arrow" aria-hidden="true">&#8250;</span>
+      </a>
 
-### 💻 Portfolio Website  
-[Portfolio](https://hatrannz.github.io/hatran_mechanical_engineer/)  
+      <a href="{{ 'Ha Tran - Resume.pdf' | relative_url }}" class="contact-card contact-card-cv" target="_blank" rel="noopener noreferrer">
+        <div class="contact-card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        </div>
+        <div class="contact-card-body">
+          <h3>Download CV</h3>
+          <p>Full curriculum vitae &mdash; PDF</p>
+        </div>
+        <span class="contact-card-arrow" aria-hidden="true">&#8595;</span>
+      </a>
 
----
+      <div class="contact-card contact-card-location">
+        <div class="contact-card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <div class="contact-card-body">
+          <h3>Location</h3>
+          <p>Based in New Zealand &nbsp;&middot;&nbsp; NZ Citizen</p>
+        </div>
+      </div>
 
-📍 Based in New Zealand | New Zealand Citizen  
-🌏 Open to relocation and international opportunities  
+    </div>
 
----
+    <!-- Availability panel -->
+    <div class="contact-availability">
+      <h2>Open To</h2>
+      <ul class="availability-list">
+        <li>
+          <span class="avail-dot"></span>
+          <span>Mechanical &amp; structural design roles</span>
+        </li>
+        <li>
+          <span class="avail-dot"></span>
+          <span>Heavy equipment &amp; industrial machinery</span>
+        </li>
+        <li>
+          <span class="avail-dot"></span>
+          <span>Fluid dynamics &amp; renewable energy systems</span>
+        </li>
+        <li>
+          <span class="avail-dot"></span>
+          <span>Aerospace &amp; UAV engineering</span>
+        </li>
+        <li>
+          <span class="avail-dot"></span>
+          <span>Marine &amp; offshore engineering</span>
+        </li>
+        <li>
+          <span class="avail-dot"></span>
+          <span>Engineering R&amp;D collaborations</span>
+        </li>
+      </ul>
 
-## Download CV
+      <div class="relocation-badge">
+        <span class="relocation-icon" aria-hidden="true">&#127758;</span>
+        <div>
+          <strong>Open to relocation</strong>
+          <span>Available for NZ-based and international opportunities</span>
+        </div>
+      </div>
 
-[Download CV]({{ 'Ha Tran - Resume.pdf' | relative_url }})
+      <a href="{{ 'Ha Tran - Resume.pdf' | relative_url }}" class="btn btn-cv" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+        Download Full CV
+      </a>
+    </div>
+
+  </div>
+
+</section>
