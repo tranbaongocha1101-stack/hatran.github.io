@@ -1,59 +1,165 @@
----
+﻿---
 layout: page
 title: Education
 permalink: /education/
 ---
 
-# Education
+<div class="page-hero">
+  <h1>Education &amp; Achievements</h1>
+  <p>Academic foundations spanning Naval Architecture, Mechanical Engineering, and Applied Aerodynamics &mdash; backed by scholarships, awards, and published research.</p>
+</div>
 
-## Doctor of Philosophy (PhD), Mechanical Engineering  
-**University of Auckland**, New Zealand | 2019 – 2024  
+<section class="edu-section">
 
-**Research Focus**  
-Aerodynamic performance and stability of small fixed-wing UAVs under extreme and unsteady wind conditions.  
+  <h2>Academic Qualifications</h2>
 
-**Thesis**  
-Investigation of the Aerodynamic Behaviour of Small Fixed-Wing Unmanned Aerial Vehicles 
+  <div class="timeline">
 
-**Key Engineering Areas**  
-Aerodynamics • Fluid mechanics • Mechanical design • Experimental testing • CFD • UAV performance modelling • Unsteady flow analysis • Data acquisition and analysis  
+    <div class="timeline-item">
+      <div class="timeline-marker">
+        <span class="timeline-year">2019&ndash;2024</span>
+        <div class="timeline-dot"></div>
+      </div>
+      <div class="timeline-card">
+        <div class="timeline-card-header">
+          <div>
+            <h3 class="timeline-degree">Doctor of Philosophy (PhD)</h3>
+            <p class="timeline-field">Mechanical Engineering</p>
+          </div>
+          <span class="timeline-institution">University of Auckland, New Zealand</span>
+        </div>
+        <blockquote class="thesis-title">
+          <strong>Thesis:</strong> Investigation of the Aerodynamic Behaviour of Small Fixed-Wing Unmanned Aerial Vehicles
+        </blockquote>
+        <p class="timeline-focus"><strong>Research Focus:</strong> Aerodynamic performance and stability of small fixed-wing UAVs under extreme and unsteady wind conditions.</p>
+        <div class="timeline-tags">
+          <span class="badge badge-secondary">Aerodynamics</span>
+          <span class="badge badge-secondary">Fluid Mechanics</span>
+          <span class="badge badge-secondary">Mechanical Design</span>
+          <span class="badge badge-secondary">Experimental Testing</span>
+          <span class="badge badge-secondary">CFD</span>
+          <span class="badge badge-secondary">UAV Performance Modelling</span>
+          <span class="badge badge-secondary">Unsteady Flow Analysis</span>
+          <span class="badge badge-secondary">Data Acquisition &amp; Analysis</span>
+        </div>
+      </div>
+    </div>
 
----
+    <div class="timeline-item">
+      <div class="timeline-marker">
+        <span class="timeline-year">2016&ndash;2017</span>
+        <div class="timeline-dot"></div>
+      </div>
+      <div class="timeline-card">
+        <div class="timeline-card-header">
+          <div>
+            <h3 class="timeline-degree">Master of Engineering</h3>
+            <p class="timeline-field">Mechanical Engineering</p>
+          </div>
+          <span class="timeline-institution">University of Auckland, New Zealand</span>
+        </div>
+        <blockquote class="thesis-title">
+          <strong>Thesis:</strong> Modelling the Unsteady Hydrodynamic Response of Lightly Loaded Tidal Turbines
+        </blockquote>
+        <p class="timeline-focus"><strong>Research Focus:</strong> Hydrodynamic performance and modelling of stream tidal turbines under extreme flow conditions.</p>
+        <div class="timeline-tags">
+          <span class="badge badge-secondary">Hydrodynamics</span>
+          <span class="badge badge-secondary">Mechanical Design</span>
+          <span class="badge badge-secondary">Structural Analysis</span>
+          <span class="badge badge-secondary">Experimental Validation</span>
+          <span class="badge badge-secondary">CFD</span>
+          <span class="badge badge-secondary">Renewable Energy Systems</span>
+          <span class="badge badge-secondary">Performance Assessment</span>
+        </div>
+      </div>
+    </div>
 
-## Master of Engineering, Mechanical Engineering
-**University of Auckland**, New Zealand | 2016 – 2017  
+    <div class="timeline-item">
+      <div class="timeline-marker">
+        <span class="timeline-year">2008&ndash;2013</span>
+        <div class="timeline-dot"></div>
+      </div>
+      <div class="timeline-card">
+        <div class="timeline-card-header">
+          <div>
+            <h3 class="timeline-degree">Bachelor of Engineering</h3>
+            <p class="timeline-field">Naval Architecture</p>
+          </div>
+          <span class="timeline-institution">Vietnam Maritime University, Vietnam</span>
+        </div>
+        <blockquote class="thesis-title">
+          <strong>Final Year Project:</strong> Design of a 500 kW tugboat for restricted coastal operations, including hull design, propulsion selection, and structural assessment.
+        </blockquote>
+        <div class="timeline-tags">
+          <span class="badge badge-secondary">Design &amp; Manufacture</span>
+          <span class="badge badge-secondary">Thermodynamics</span>
+          <span class="badge badge-secondary">Mechanics of Materials</span>
+          <span class="badge badge-secondary">Thermofluids</span>
+          <span class="badge badge-secondary">Dynamics of Fluids &amp; Structures</span>
+          <span class="badge badge-secondary">Control Systems</span>
+          <span class="badge badge-secondary">Aerohydrodynamics</span>
+          <span class="badge badge-secondary">CFD</span>
+          <span class="badge badge-secondary">Composite Materials</span>
+        </div>
+      </div>
+    </div>
 
-**Research Focus**  
-Hydrodynamic performance and modelling of stream tidal turbines under extreme flow conditions.
+  </div>
 
-**Thesis**  
-Modelling the Unsteady Hydrodynamic Response of Lightly Loaded Tidal Turbines
+  <h2>Awards &amp; Achievements</h2>
 
-**Key Engineering Areas**  
-Hydrodynamics • Mechanical design • Structural analysis • Experimental validation • CFD • Renewable energy systems • Performance assessment  
+  <div class="awards-list">
 
----
+    <div class="award-item">
+      <span class="award-year">2023</span>
+      <span class="award-name">Thanh-Cao Dac Postgraduate Engineering Award</span>
+    </div>
 
-## Bachelor of Engineering, Naval Architect
-**Vietnam Maritime University**, Vietnam | 2008 – 2013 
+    <div class="award-item">
+      <span class="award-year">2022</span>
+      <span class="award-name">Outstanding Individual Award &mdash; Haiphong City, Vietnam</span>
+    </div>
 
-**Final Year Project**  
-Design of a 500 kW tugboat for restricted coastal operations, including hull design, propulsion selection, and structural assessment.  
+    <div class="award-item award-highlight">
+      <span class="award-year">2021</span>
+      <span class="award-name">Zonta International Amelia Earhart Fellowship</span>
+    </div>
 
-**Key Engineering Areas**  
-Design and Manufacture • Thermal Engineering • Thermodynamics • Mechanics of Materials • Thermofluids • Dynamics of Fluids and Structures • Control Systems • Manufacturing Systems • Mechanical Design • Aerohydrodynamics • Engineering Product Development • Computational Fluid Dynamics • Engineering Vibrations • Composite Materials • Design for Additive Manufacturing
+    <div class="award-item">
+      <span class="award-year">2021</span>
+      <span class="award-name">Mercer Memorial Scholarship in Aeronautics</span>
+    </div>
 
----
+    <div class="award-item award-highlight">
+      <span class="award-year">2019</span>
+      <span class="award-name">University of Auckland Doctoral Scholarship</span>
+    </div>
 
-# Awards & Achievements
+    <div class="award-item">
+      <span class="award-year">2016</span>
+      <span class="award-name">New Zealand ASEAN Scholar Award</span>
+    </div>
 
-- 2023 - Thanh-Cao Dac Postgraduate Engineering Award
-- 2022 - Outstanding Individual Award, Haiphong City, Vietnam
-- 2021 - Mercer Memorial Scholarship in Aeronautics
-- 2021 - Zonta International Amelia Earheart Fellowship
-- 2019 - University of Auckland Doctoral Scholarship
-- 2016 - New Zealand ASEAN Scholar Award
-- 2014 - Excellent Teaching Ability Certificate
-- 2013 - Valedictorian of Graduating Class
-- 2012 - Toyota Scholarship; Silver Medal, National Mechanics Competition
-- 2011 - Toyota Scholarship; Korean Register Scholarship; Bronze Medal, National Mechanics Competition
+    <div class="award-item">
+      <span class="award-year">2014</span>
+      <span class="award-name">Excellent Teaching Ability Certificate</span>
+    </div>
+
+    <div class="award-item award-highlight">
+      <span class="award-year">2013</span>
+      <span class="award-name">Valedictorian of Graduating Class</span>
+    </div>
+
+    <div class="award-item">
+      <span class="award-year">2012</span>
+      <span class="award-name">Toyota Scholarship &nbsp;&middot;&nbsp; Silver Medal, National Mechanics Competition</span>
+    </div>
+
+    <div class="award-item">
+      <span class="award-year">2011</span>
+      <span class="award-name">Toyota Scholarship &nbsp;&middot;&nbsp; Korean Register Scholarship &nbsp;&middot;&nbsp; Bronze Medal, National Mechanics Competition</span>
+    </div>
+
+  </div>
+
+</section>
