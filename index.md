@@ -1,62 +1,136 @@
----
+﻿---
 layout: home
 title: "Ha Tran | Mechanical Engineer"
 ---
 
-<img src="{{ '/images/headshot_photo.jpeg' | relative_url }}" alt="Ha Tran Headshot" class="headshot">
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-content">
+    <p class="hero-eyebrow">Mechanical Design Engineer</p>
+    <h1 class="hero-name">Ha Tran</h1>
+    <p class="hero-tagline">Heavy Industrial Machinery &nbsp;&middot;&nbsp; Renewable Energy &nbsp;&middot;&nbsp; Aerospace &nbsp;&middot;&nbsp; Mining &amp; Marine Systems</p>
+    <div class="hero-cta">
+      <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary">View Projects</a>
+      <a href="{{ 'Ha Tran - Resume.pdf' | relative_url }}" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Download CV</a>
+    </div>
+  </div>
+</section>
 
-# Ha Tran
+<!-- ===== HIGHLIGHTS BAR ===== -->
+<div class="highlights-bar">
+  <div class="highlights-container">
+    <div class="highlight-item">
+      <span class="highlight-value">PhD + MEng</span>
+      <span class="highlight-label">University of Auckland</span>
+    </div>
+    <div class="highlight-item">
+      <span class="highlight-value">5 Industry Projects</span>
+      <span class="highlight-label">Heavy Equipment &amp; Machinery</span>
+    </div>
+    <div class="highlight-item">
+      <span class="highlight-value">2 Research Projects</span>
+      <span class="highlight-label">Aerospace &amp; Marine</span>
+    </div>
+    <div class="highlight-item">
+      <span class="highlight-value">5 CAD Platforms</span>
+      <span class="highlight-label">Solid Edge &middot; SolidWorks &middot; ANSYS +</span>
+    </div>
+    <div class="highlight-item">
+      <span class="highlight-value">NZ Citizen</span>
+      <span class="highlight-label">Open to Relocation</span>
+    </div>
+  </div>
+</div>
 
-### Mechanical Design Engineer | Heavy Industrial Machinery | Renewable Energy | Aerospace, Mining & Marine Systems
+<!-- ===== ABOUT ===== -->
+<div class="about-section">
+  <div class="about-grid">
+    <div class="about-headshot">
+      <img src="{{ '/images/headshot_photo.jpeg' | relative_url }}"
+           alt="Ha Tran"
+           onerror="this.closest('.about-headshot').style.display='none'">
+    </div>
+    <div class="about-bio">
+      <h2>About</h2>
+      <p class="bio-text">
+        I am a Mechanical Engineer with combined industry and research experience delivering complex mechanical systems across heavy industrial machinery, renewable energy, aerospace platforms, and marine engineering. I hold a <strong>PhD and Master&rsquo;s in Mechanical Engineering</strong> from the University of Auckland and a Bachelor&rsquo;s in Naval Architecture &mdash; a rare breadth spanning concept to commissioning across multiple engineering domains.
+      </p>
+      <p class="bio-text">
+        In industry I have led end-to-end design of custom geotechnical drilling rigs &mdash; from folding mast design and hydraulic system integration to supplier coordination and offshore deployment in the Solomon Islands. In research, I designed experimental wind tunnel rigs for NZ Defence Force UAV testing and published work on tidal turbine hydrodynamics. I thrive where precision engineering meets real-world constraints.
+      </p>
+      <p><a href="{{ '/contact/' | relative_url }}" class="btn btn-secondary">Get in Touch</a></p>
+    </div>
+  </div>
+</div>
 
-I am a Mechanical Engineer with combined industry and research experience delivering complex mechanical systems across heavy industrial machinery, renewable energy, aerospace platforms, and marine engineering.
+<!-- ===== WHAT I DO ===== -->
+<div class="what-i-do">
+  <div class="section-container">
+    <h2>What I Do</h2>
+    <p class="section-intro">From concept sketches to commissioning checklists &mdash; engineering that works in the real world.</p>
+    <div class="service-cards">
 
-I hold a **PhD and Master’s in Mechanical Engineering** from the University of Auckland, where my research translated into **high-impact engineering solutions**, including UAV aerodynamic performance under extreme wind conditions and tidal turbine hydrodynamics.
+      <div class="service-card">
+        <div class="service-card-icon">&#9881;&#65039;</div>
+        <h3>Mechanical Design</h3>
+        <p>End-to-end design of complex assemblies, drivetrain systems, and industrial machinery. DFM-optimised drawings, GD&amp;T, BOM management, and supplier coordination through manufacture and commissioning.</p>
+      </div>
 
-I excel in:
+      <div class="service-card">
+        <div class="service-card-icon">&#128208;</div>
+        <h3>Analysis &amp; Simulation</h3>
+        <p>Structural FEA (ANSYS), CFD, classical hand calculations, hydraulic sizing, and experimental validation to inform and de-risk design decisions at every stage.</p>
+      </div>
 
-- **End-to-end engineering delivery** – from conceptual design to detailed engineering, manufacturing, and commissioning.  
-- **Mechanical and hydraulic systems integration** – optimising reliability, performance, and maintainability.  
-- **Simulation and analysis** – structural FEA, CFD, and experimental validation to inform design decisions.  
-- **Supplier and stakeholder coordination** – including offshore manufacturing, fabrication, and commissioning support.  
-- **Design for Manufacture & Assembly (DFMA)** – GD&T, fabrication drawings, and layout optimisation to reduce cost and improve reliability.
+      <div class="service-card">
+        <div class="service-card-icon">&#128295;</div>
+        <h3>Systems Integration</h3>
+        <p>Hydraulic system design, pipework routing, energy chain systems, electronic throttle integration, and commissioning support for heavy industrial and research platforms.</p>
+      </div>
 
-I combine **technical expertise** with practical problem-solving under real-world constraints, delivering projects that meet client requirements, comply with safety standards, and perform reliably in extreme environments.
+    </div>
+  </div>
+</div>
 
-As a New Zealand citizen, I am open to engineering opportunities both locally and internationally within design engineering, heavy equipment, mining machinery, energy systems, and advanced manufacturing sectors.
+<!-- ===== CORE CAPABILITIES ===== -->
+<div class="capabilities-section">
+  <div class="section-container">
+    <h2>Core Capabilities</h2>
+    <div class="capability-chips">
+      <span class="chip">Mechanical System Design</span>
+      <span class="chip">Heavy Equipment Development</span>
+      <span class="chip">Hydraulic System Integration</span>
+      <span class="chip">Structural Analysis</span>
+      <span class="chip">FEA &mdash; ANSYS</span>
+      <span class="chip">CFD</span>
+      <span class="chip">DFMA</span>
+      <span class="chip">GD&amp;T</span>
+      <span class="chip">Manufacturing Drawings</span>
+      <span class="chip">Fabrication Design</span>
+      <span class="chip">Layout Optimisation</span>
+      <span class="chip">Commissioning Support</span>
+      <span class="chip">Supplier Coordination</span>
+      <span class="chip">Reliability Engineering</span>
+      <span class="chip">BOM Management</span>
+      <span class="chip">Engineering Automation</span>
+      <span class="chip">Experimental Testing</span>
+      <span class="chip">Aero-Hydrodynamic Analysis</span>
+      <span class="chip">UAV Systems</span>
+      <span class="chip">Tidal &amp; Renewable Energy</span>
+      <span class="chip">Technical Documentation</span>
+      <span class="chip">Design Verification</span>
+    </div>
+  </div>
+</div>
 
----
-
-## Core Capabilities
-
-- Mechanical system design and optimization
-- Structural analysis (hand calculations & FEA – ANSYS)
-- CFD
-- Design for Manufacturing and Assembly (DFMA)
-- Aero-hydrodynamic performance analysis  
-- Hydraulic system integration and pipe routing  
-- Heavy equipment and machinery development
-- Experimental testing
-- UAV and renewable energy systems
-- Engineering documentation, technical & fabrication drawings
-- Commissioning support
-- Reliability & maintainability
-- Data acquisition & analysis
-- Performance modelling
-- Engineering automation
-
----
-
-## Selected Projects
-
-Explore detailed industry and research projects demonstrating practical engineering delivery:
-
-👉 [View Projects]({{ site.baseurl }}/projects/)
-
-👉 [View Skills]({{ site.baseurl }}/skills/)
-
-👉 [View Education & Achievements]({{ site.baseurl }}/education/)
-
-👉 [Download CV]({{ 'Ha Tran - Resume.pdf' | relative_url }})
-
-
+<!-- ===== EXPLORE PORTFOLIO ===== -->
+<div class="home-nav-section">
+  <h2>Explore My Portfolio</h2>
+  <p>Detailed project case studies, full skills inventory, and academic achievements</p>
+  <div class="home-nav-links">
+    <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary">Projects</a>
+    <a href="{{ '/skills/' | relative_url }}" class="btn btn-outline">Skills</a>
+    <a href="{{ '/education/' | relative_url }}" class="btn btn-outline">Education</a>
+    <a href="{{ '/contact/' | relative_url }}" class="btn btn-outline">Contact</a>
+  </div>
+</div>
