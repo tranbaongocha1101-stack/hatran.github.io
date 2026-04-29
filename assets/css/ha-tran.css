@@ -8,18 +8,18 @@
 ----------------------------------------------- */
 :root {
   /* Colours */
-  --c-primary:      #1B3A5C;
-  --c-primary-dark: #142D47;
-  --c-accent:       #E8860A;
-  --c-accent-light: #F5A030;
-  --c-surface:      #F4F6F9;
-  --c-surface-alt:  #E8EBF0;
-  --c-text:         #1C1C2E;
-  --c-text-muted:   #5A6478;
-  --c-link:         #2E7DC5;
-  --c-link-hover:   #1B5E99;
+  --c-primary:      #2E6DA4;   /* Steel Blue — lighter, less heavy than navy */
+  --c-primary-dark: #1C4E7A;   /* Deep Steel — nav/footer */
+  --c-accent:       #C4693A;   /* Muted Copper-Rust — warm, reddish, low intensity */
+  --c-accent-light: #D47B4A;   /* Light Copper */
+  --c-surface:      #EDF3FA;   /* Pale Steel Blue tint */
+  --c-surface-alt:  #DAE8F5;   /* Slightly richer */
+  --c-text:         #1E293B;   /* Dark Slate */
+  --c-text-muted:   #5A7A9A;   /* Steel Muted */
+  --c-link:         #2D7FB8;   /* Steel Link */
+  --c-link-hover:   #1E5E8A;   /* Deep Steel Hover */
   --c-white:        #FFFFFF;
-  --c-border:       #CDD2DA;
+  --c-border:       #C4D8EC;   /* Light steel border */
 
   /* Typography */
   --font: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -438,7 +438,7 @@ figure video {
   border: 1px solid var(--c-border);
 }
 .tag-industrial { background: #E3EFFA; color: #1B5E99; border-color: #B3D0EE; }
-.tag-research   { background: #FFF0DC; color: #8A4D00; border-color: #F5C87A; }
+.tag-research   { background: #FBF0E8; color: #7A3A18; border-color: #E8B090; }
 .tag-marine     { background: #E0F4F1; color: #1A6B5E; border-color: #8ACEC7; }
 .tag-aerospace  { background: #EEE6FA; color: #5C2FA0; border-color: #C4A9EE; }
 
@@ -1638,11 +1638,11 @@ figure video {
 .timeline::before {
   content: '';
   position: absolute;
-  left: 120px;
+  left: 126px;  /* aligns with dot centre (marker right -7px -7px) */
   top: 16px;
   bottom: 16px;
   width: 2px;
-  background: linear-gradient(to bottom, var(--c-accent), var(--c-primary));
+  background: rgba(46, 109, 164, 0.28); /* subtle primary tint */
 }
 
 .timeline-item {
@@ -1656,14 +1656,14 @@ figure video {
   position: absolute;
   left: -140px;
   width: 140px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
-  gap: 10px;
-  padding-top: 4px;
+  /* children are absolutely positioned within this block */
 }
 
 .timeline-year {
+  position: absolute;
+  left: 0;
+  right: 28px; /* dot(14px) + gap(7px) + right-inset(7px) */
+  top: 4px;
   font-size: 0.78rem;
   font-weight: 700;
   color: var(--c-primary);
@@ -1674,14 +1674,16 @@ figure video {
 }
 
 .timeline-dot {
+  position: absolute;
+  right: 7px;   /* centre at 126px from .timeline left */
+  top: 3px;
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background: var(--c-accent);
+  background: var(--c-primary);
   border: 3px solid var(--c-white);
-  box-shadow: 0 0 0 2px var(--c-accent);
-  flex-shrink: 0;
-  margin-top: 1px;
+  box-shadow: 0 0 0 2px var(--c-primary);
+  z-index: 1;
 }
 
 /* Card */
@@ -1785,10 +1787,10 @@ figure video {
 
 /* Highlighted/prestigious awards */
 .award-highlight {
-  background: #FFF8EE;
+  background: #FBF0E8;
   border-left: 4px solid var(--c-accent);
 }
-.award-highlight:hover { background: #FFF0D6; }
+.award-highlight:hover { background: #F5E0CC; }
 
 .award-year {
   font-size: 0.78rem;
@@ -1834,6 +1836,8 @@ figure video {
   }
 
   .timeline-year {
+    position: static;
+    right: auto;
     text-align: left;
     font-size: 0.82rem;
     background: var(--c-primary);
@@ -1849,472 +1853,6 @@ figure video {
 
   .award-item { padding: var(--sp-sm) var(--sp-md); gap: var(--sp-sm); }
 }
-
-
-/* -----------------------------------------------
-   EDUCATION PAGE — TIMELINE
------------------------------------------------ */
-.edu-section h2 {
-  margin-top: var(--sp-3xl);
-}
-.edu-section h2:first-of-type {
-  margin-top: var(--sp-xl);
-}
-
-.timeline {
-  position: relative;
-  margin-top: var(--sp-xl);
-  padding-left: 140px; /* space for year column */
-}
-
-/* Vertical connecting line */
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 120px;
-  top: 16px;
-  bottom: 16px;
-  width: 2px;
-  background: linear-gradient(to bottom, var(--c-accent), var(--c-primary));
-}
-
-.timeline-item {
-  position: relative;
-  margin-bottom: var(--sp-2xl);
-}
-.timeline-item:last-child { margin-bottom: 0; }
-
-/* Year label + dot */
-.timeline-marker {
-  position: absolute;
-  left: -140px;
-  width: 140px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
-  gap: 10px;
-  padding-top: 4px;
-}
-
-.timeline-year {
-  font-size: 0.78rem;
-  font-weight: 700;
-  color: var(--c-primary);
-  text-align: right;
-  line-height: 1.3;
-  letter-spacing: 0.02em;
-  white-space: nowrap;
-}
-
-.timeline-dot {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: var(--c-accent);
-  border: 3px solid var(--c-white);
-  box-shadow: 0 0 0 2px var(--c-accent);
-  flex-shrink: 0;
-  margin-top: 1px;
-}
-
-/* Card */
-.timeline-card {
-  background: var(--c-white);
-  border: 1px solid var(--c-border);
-  border-radius: var(--r-lg);
-  padding: var(--sp-xl);
-  box-shadow: var(--shadow-sm);
-  transition: box-shadow 0.2s;
-}
-.timeline-card:hover { box-shadow: var(--shadow-md); }
-
-.timeline-card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: var(--sp-sm);
-  margin-bottom: var(--sp-md);
-}
-
-.timeline-degree {
-  margin: 0 0 2px;
-  font-size: 1.1rem;
-  color: var(--c-primary);
-}
-
-.timeline-field {
-  margin: 0;
-  font-size: 0.88rem;
-  color: var(--c-accent);
-  font-weight: 600;
-}
-
-.timeline-institution {
-  font-size: 0.82rem;
-  color: var(--c-text-muted);
-  font-weight: 500;
-  text-align: right;
-  flex-shrink: 0;
-  padding-top: 4px;
-}
-
-.thesis-title {
-  border-left: 4px solid var(--c-accent);
-  background: var(--c-surface);
-  border-radius: 0 var(--r-md) var(--r-md) 0;
-  padding: var(--sp-sm) var(--sp-md);
-  margin: var(--sp-md) 0;
-  font-size: 0.9rem;
-  font-style: italic;
-  color: var(--c-text);
-}
-.thesis-title strong {
-  font-style: normal;
-  color: var(--c-primary);
-}
-
-.timeline-focus {
-  font-size: 0.88rem;
-  color: var(--c-text-muted);
-  margin-bottom: var(--sp-md);
-  line-height: 1.6;
-}
-
-.timeline-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--sp-xs) var(--sp-sm);
-  margin-top: var(--sp-sm);
-}
-.timeline-tags .badge {
-  font-size: 0.72rem;
-  padding: 3px 10px;
-}
-
-
-/* -----------------------------------------------
-   AWARDS LIST
------------------------------------------------ */
-.awards-list {
-  margin-top: var(--sp-lg);
-  border: 1px solid var(--c-border);
-  border-radius: var(--r-lg);
-  overflow: hidden;
-  box-shadow: var(--shadow-sm);
-}
-
-.award-item {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-lg);
-  padding: var(--sp-md) var(--sp-xl);
-  border-bottom: 1px solid var(--c-border);
-  background: var(--c-white);
-  transition: background 0.15s;
-}
-.award-item:last-child { border-bottom: none; }
-.award-item:hover { background: var(--c-surface); }
-
-/* Highlighted/prestigious awards */
-.award-highlight {
-  background: #FFF8EE;
-  border-left: 4px solid var(--c-accent);
-}
-.award-highlight:hover { background: #FFF0D6; }
-
-.award-year {
-  font-size: 0.78rem;
-  font-weight: 700;
-  color: var(--c-white);
-  background: var(--c-primary);
-  border-radius: var(--r-full);
-  padding: 3px 10px;
-  flex-shrink: 0;
-  letter-spacing: 0.04em;
-  min-width: 52px;
-  text-align: center;
-}
-.award-highlight .award-year {
-  background: var(--c-accent);
-}
-
-.award-name {
-  font-size: 0.92rem;
-  color: var(--c-text);
-  line-height: 1.5;
-}
-.award-highlight .award-name {
-  font-weight: 600;
-  color: var(--c-primary);
-}
-
-
-/* -----------------------------------------------
-   TIMELINE — MOBILE
------------------------------------------------ */
-@media (max-width: 680px) {
-  .timeline {
-    padding-left: 0;
-  }
-  .timeline::before { display: none; }
-
-  .timeline-marker {
-    position: static;
-    width: auto;
-    justify-content: flex-start;
-    margin-bottom: var(--sp-sm);
-  }
-
-  .timeline-year {
-    text-align: left;
-    font-size: 0.82rem;
-    background: var(--c-primary);
-    color: var(--c-white);
-    padding: 2px 10px;
-    border-radius: var(--r-full);
-  }
-
-  .timeline-dot { display: none; }
-
-  .timeline-card-header { flex-direction: column; }
-  .timeline-institution { text-align: left; }
-
-  .award-item { padding: var(--sp-sm) var(--sp-md); gap: var(--sp-sm); }
-}
-
-
-/* -----------------------------------------------
-   CONTACT PAGE
------------------------------------------------ */
-.contact-section {
-  margin-top: var(--sp-xl);
-}
-
-.contact-grid {
-  display: grid;
-  grid-template-columns: 1fr 340px;
-  gap: var(--sp-2xl);
-  align-items: start;
-}
-
-
-/* -----------------------------------------------
-   CONTACT CARDS
------------------------------------------------ */
-.contact-cards {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-md);
-}
-
-.contact-card {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-lg);
-  padding: var(--sp-lg) var(--sp-xl);
-  background: var(--c-white);
-  border: 1px solid var(--c-border);
-  border-radius: var(--r-lg);
-  box-shadow: var(--shadow-sm);
-  text-decoration: none;
-  color: var(--c-text);
-  transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
-  border-left: 4px solid transparent;
-}
-.contact-card:hover {
-  box-shadow: var(--shadow-md);
-  transform: translateX(4px);
-  text-decoration: none;
-  color: var(--c-text);
-  border-left-color: var(--c-accent);
-}
-
-/* CV download card — amber accent */
-.contact-card-cv {
-  border-left-color: var(--c-accent);
-  background: linear-gradient(to right, #FFF8EE, var(--c-white));
-}
-.contact-card-cv:hover {
-  background: linear-gradient(to right, #FFF0D6, var(--c-white));
-}
-
-/* Location card — not a link, no hover transform */
-.contact-card-location {
-  cursor: default;
-  background: var(--c-surface);
-}
-.contact-card-location:hover {
-  transform: none;
-  box-shadow: var(--shadow-sm);
-  border-left-color: var(--c-primary);
-}
-
-.contact-card-icon {
-  width: 48px;
-  height: 48px;
-  border-radius: var(--r-md);
-  background: var(--c-primary);
-  color: var(--c-white);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  transition: background 0.2s;
-}
-.contact-card:hover .contact-card-icon { background: var(--c-primary-dark); }
-.contact-card-cv .contact-card-icon { background: var(--c-accent); }
-.contact-card-cv:hover .contact-card-icon { background: var(--c-accent-light); }
-.contact-card-location .contact-card-icon { background: var(--c-surface-alt); color: var(--c-text-muted); }
-
-.contact-card-body {
-  flex: 1;
-  min-width: 0;
-}
-.contact-card-body h3 {
-  margin: 0 0 2px;
-  font-size: 0.95rem;
-  color: var(--c-primary);
-}
-.contact-card-body p {
-  margin: 0;
-  font-size: 0.85rem;
-  color: var(--c-text-muted);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.contact-card-arrow {
-  font-size: 1.4rem;
-  color: var(--c-text-muted);
-  flex-shrink: 0;
-  transition: color 0.15s, transform 0.15s;
-  line-height: 1;
-}
-.contact-card:hover .contact-card-arrow {
-  color: var(--c-accent);
-  transform: translateX(3px);
-}
-
-
-/* -----------------------------------------------
-   AVAILABILITY PANEL
------------------------------------------------ */
-.contact-availability {
-  background: var(--c-primary);
-  border-radius: var(--r-lg);
-  padding: var(--sp-xl);
-  color: var(--c-white);
-  box-shadow: var(--shadow-md);
-  position: sticky;
-  top: calc(var(--nav-h) + var(--sp-lg));
-}
-
-.contact-availability h2 {
-  color: var(--c-white);
-  border-bottom: 1px solid rgba(255,255,255,0.15);
-  padding-bottom: var(--sp-sm);
-  margin-top: 0;
-  margin-bottom: var(--sp-lg);
-  font-size: 1.05rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-
-.availability-list {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 var(--sp-xl);
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-sm);
-}
-.availability-list li {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-sm);
-  font-size: 0.88rem;
-  color: rgba(255,255,255,0.85);
-  line-height: 1.5;
-  margin-bottom: 0;
-}
-
-.avail-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--c-accent);
-  flex-shrink: 0;
-}
-
-.relocation-badge {
-  display: flex;
-  align-items: flex-start;
-  gap: var(--sp-sm);
-  background: rgba(255,255,255,0.10);
-  border: 1px solid rgba(255,255,255,0.20);
-  border-radius: var(--r-md);
-  padding: var(--sp-md);
-  margin-bottom: var(--sp-xl);
-}
-
-.relocation-icon {
-  font-size: 1.3rem;
-  line-height: 1;
-  flex-shrink: 0;
-}
-
-.relocation-badge strong {
-  display: block;
-  font-size: 0.88rem;
-  color: var(--c-white);
-  margin-bottom: 2px;
-}
-
-.relocation-badge span {
-  font-size: 0.78rem;
-  color: rgba(255,255,255,0.65);
-  line-height: 1.4;
-}
-
-/* CV download button inside panel */
-.btn-cv {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: var(--sp-sm);
-  width: 100%;
-  padding: 12px var(--sp-lg);
-  background: var(--c-accent);
-  color: var(--c-white);
-  border-radius: var(--r-sm);
-  font-weight: 700;
-  font-size: 0.95rem;
-  text-decoration: none;
-  transition: background 0.2s, transform 0.15s;
-  border: none;
-}
-.btn-cv:hover {
-  background: var(--c-accent-light);
-  text-decoration: none;
-  color: var(--c-white);
-  transform: translateY(-1px);
-}
-
-
-/* -----------------------------------------------
-   CONTACT — MOBILE
------------------------------------------------ */
-@media (max-width: 760px) {
-  .contact-grid {
-    grid-template-columns: 1fr;
-  }
-  .contact-availability {
-    position: static;
-    order: -1;  /* panel above cards on mobile */
-  }
-  .contact-card-body p {
     white-space: normal;
   }
 }
@@ -2369,10 +1907,10 @@ figure video {
 /* CV download card — amber accent */
 .contact-card-cv {
   border-left-color: var(--c-accent);
-  background: linear-gradient(to right, #FFF8EE, var(--c-white));
+  background: linear-gradient(to right, #FBF0E8, var(--c-white));
 }
 .contact-card-cv:hover {
-  background: linear-gradient(to right, #FFF0D6, var(--c-white));
+  background: linear-gradient(to right, #F5E0CC, var(--c-white));
 }
 
 /* Location card — not a link, no hover transform */
