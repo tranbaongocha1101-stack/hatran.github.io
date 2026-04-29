@@ -1,17 +1,75 @@
-﻿---
-layout: home
-title: "Ha Tran | Mechanical Engineer"
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mechanical Engineer | Heavy Industrial Machinery | Renewable Energy | Aerospace, Mining &amp; Marine Systems">
+  <meta name="theme-color" content="#1B3A5C">
+  <title>Ha Tran | Mechanical Engineer | Ha Tran</title>
 
-<!-- ===== HERO ===== -->
+  <!-- Open Graph / LinkedIn preview -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="http://localhost:4000/hatran_mechanical_engineer/">
+  <meta property="og:title"       content="Ha Tran | Mechanical Engineer | Ha Tran">
+  <meta property="og:description" content="Mechanical Engineer | Heavy Industrial Machinery | Renewable Energy | Aerospace, Mining &amp; Marine Systems">
+  <meta property="og:image"       content="http://localhost:4000/hatran_mechanical_engineer/images/headshot_photo.jpeg">
+  <meta property="og:locale"      content="en_NZ">
+
+  <!-- Twitter / X card -->
+  <meta name="twitter:card"        content="summary">
+  <meta name="twitter:title"       content="Ha Tran — Mechanical Design Engineer">
+  <meta name="twitter:description" content="Mechanical Engineer | Heavy Industrial Machinery | Renewable Energy | Aerospace, Mining &amp; Marine Systems">
+  <meta name="twitter:image"       content="http://localhost:4000/hatran_mechanical_engineer/images/headshot_photo.jpeg">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="http://localhost:4000/hatran_mechanical_engineer/">
+
+  <!-- Favicon (add favicon.ico / favicon.svg to repo root to activate) -->
+  <link rel="icon" type="image/svg+xml" href="/hatran_mechanical_engineer/favicon.svg">
+  <link rel="alternate icon"            href="/hatran_mechanical_engineer/favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/hatran_mechanical_engineer/assets/css/style.css">
+</head>
+<body class="layout-home">
+
+  <!-- ====== NAVIGATION ====== -->
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="/hatran_mechanical_engineer/" class="nav-brand">Ha Tran</a>
+
+      <!-- Pure-CSS hamburger toggle -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <ul class="nav-links" role="list">
+        <li><a href="/hatran_mechanical_engineer/" class="active">Home</a></li>
+        <li><a href="/hatran_mechanical_engineer/projects/">Projects</a></li>
+        <li><a href="/hatran_mechanical_engineer/skills/">Skills</a></li>
+        <li><a href="/hatran_mechanical_engineer/education/">Education</a></li>
+        <li><a href="/hatran_mechanical_engineer/contact/">Contact</a></li>
+        <li><a href="/hatran_mechanical_engineer/Ha%20Tran%20-%20Resume.pdf" class="nav-cta" target="_blank" rel="noopener noreferrer">Download CV</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ====== MAIN CONTENT ====== -->
+  <main class="site-main" id="main-content">
+    <!-- ===== HERO ===== -->
 <section class="hero">
   <div class="hero-content">
     <p class="hero-eyebrow">Mechanical Design Engineer</p>
     <h1 class="hero-name">Ha Tran</h1>
     <p class="hero-tagline">Heavy Industrial Machinery &nbsp;&middot;&nbsp; Renewable Energy &nbsp;&middot;&nbsp; Aerospace &nbsp;&middot;&nbsp; Mining &amp; Marine Systems</p>
     <div class="hero-cta">
-      <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary">View Projects</a>
-      <a href="{{ 'Ha Tran - Resume.pdf' | relative_url }}" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Download CV</a>
+      <a href="/hatran_mechanical_engineer/projects/" class="btn btn-primary">View Projects</a>
+      <a href="/hatran_mechanical_engineer/Ha%20Tran%20-%20Resume.pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Download CV</a>
     </div>
   </div>
 </section>
@@ -46,7 +104,7 @@ title: "Ha Tran | Mechanical Engineer"
 <div class="about-section">
   <div class="about-grid">
     <div class="about-headshot">
-      <img src="{{ '/images/headshot_photo.jpeg' | relative_url }}"
+      <img src="/hatran_mechanical_engineer/images/headshot_photo.jpeg"
            alt="Ha Tran"
            onerror="this.closest('.about-headshot').style.display='none'">
     </div>
@@ -58,7 +116,7 @@ title: "Ha Tran | Mechanical Engineer"
       <p class="bio-text">
         In industry I have led end-to-end design of custom geotechnical drilling rigs &mdash; from folding mast design and hydraulic system integration to supplier coordination and offshore deployment in the Solomon Islands. In research, I designed experimental wind tunnel rigs for NZ Defence Force UAV testing and published work on tidal turbine hydrodynamics. I thrive where precision engineering meets real-world constraints.
       </p>
-      <p><a href="{{ '/contact/' | relative_url }}" class="btn btn-secondary">Get in Touch</a></p>
+      <p><a href="/hatran_mechanical_engineer/contact/" class="btn btn-secondary">Get in Touch</a></p>
     </div>
   </div>
 </div>
@@ -128,9 +186,35 @@ title: "Ha Tran | Mechanical Engineer"
   <h2>Explore My Portfolio</h2>
   <p>Detailed project case studies, full skills inventory, and academic achievements</p>
   <div class="home-nav-links">
-    <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary">Projects</a>
-    <a href="{{ '/skills/' | relative_url }}" class="btn btn-outline">Skills</a>
-    <a href="{{ '/education/' | relative_url }}" class="btn btn-outline">Education</a>
-    <a href="{{ '/contact/' | relative_url }}" class="btn btn-outline">Contact</a>
+    <a href="/hatran_mechanical_engineer/projects/" class="btn btn-primary">Projects</a>
+    <a href="/hatran_mechanical_engineer/skills/" class="btn btn-outline">Skills</a>
+    <a href="/hatran_mechanical_engineer/education/" class="btn btn-outline">Education</a>
+    <a href="/hatran_mechanical_engineer/contact/" class="btn btn-outline">Contact</a>
   </div>
 </div>
+
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <strong>Ha Tran</strong>
+        <span>Mechanical Design Engineer</span>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:tranbaongocha1101@gmail.com" class="footer-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          Email
+        </a>
+        <a href="https://www.linkedin.com/in/ha-tran-940332154" class="footer-link" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+    <p class="footer-copy">New Zealand &nbsp;|&nbsp; NZ Citizen &nbsp;|&nbsp; Open to relocation and international opportunities</p>
+  </footer>
+
+</body>
+</html>
