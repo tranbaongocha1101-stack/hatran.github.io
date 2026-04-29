@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mechanical Engineer | Heavy Industrial Machinery | Renewable Energy | Aerospace, Mining &amp; Marine Systems">
+  <meta name="theme-color" content="#1B3A5C">
+  <title>Ha Tran CV Website — Design &amp; Content Plan | Ha Tran</title>
+
+  <!-- Open Graph / LinkedIn preview -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="http://localhost:4000/hatran_mechanical_engineer/docs/plan.html">
+  <meta property="og:title"       content="Ha Tran CV Website — Design &amp; Content Plan | Ha Tran">
+  <meta property="og:description" content="Mechanical Engineer | Heavy Industrial Machinery | Renewable Energy | Aerospace, Mining &amp; Marine Systems">
+  <meta property="og:image"       content="http://localhost:4000/hatran_mechanical_engineer/images/headshot_photo.jpeg">
+  <meta property="og:locale"      content="en_NZ">
+
+  <!-- Twitter / X card -->
+  <meta name="twitter:card"        content="summary">
+  <meta name="twitter:title"       content="Ha Tran — Mechanical Design Engineer">
+  <meta name="twitter:description" content="Mechanical Engineer | Heavy Industrial Machinery | Renewable Energy | Aerospace, Mining &amp; Marine Systems">
+  <meta name="twitter:image"       content="http://localhost:4000/hatran_mechanical_engineer/images/headshot_photo.jpeg">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="http://localhost:4000/hatran_mechanical_engineer/docs/plan.html">
+
+  <!-- Favicon (add favicon.ico / favicon.svg to repo root to activate) -->
+  <link rel="icon" type="image/svg+xml" href="/hatran_mechanical_engineer/favicon.svg">
+  <link rel="alternate icon"            href="/hatran_mechanical_engineer/favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/hatran_mechanical_engineer/assets/css/ha-tran.css">
+</head>
+<body class="layout-page">
+
+  <!-- ====== NAVIGATION ====== -->
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="/hatran_mechanical_engineer/" class="nav-brand">Ha Tran</a>
+
+      <!-- Pure-CSS hamburger toggle -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <ul class="nav-links" role="list">
+        <li><a href="/hatran_mechanical_engineer/">Home</a></li>
+        <li><a href="/hatran_mechanical_engineer/projects/">Projects</a></li>
+        <li><a href="/hatran_mechanical_engineer/skills/">Skills</a></li>
+        <li><a href="/hatran_mechanical_engineer/education/">Education</a></li>
+        <li><a href="/hatran_mechanical_engineer/contact/">Contact</a></li>
+        <li><a href="/hatran_mechanical_engineer/Ha%20Tran%20-%20Resume.pdf" class="nav-cta" target="_blank" rel="noopener noreferrer">Download CV</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ====== MAIN CONTENT ====== -->
+  <main class="site-main" id="main-content">
+    <div class="page-content">
+  <h1 id="ha-tran-cv-website--design--content-plan">Ha Tran CV Website — Design &amp; Content Plan</h1>
+
+<p><strong>Goal:</strong> Transform the existing Minima-themed GitHub Pages site into a standout CV portfolio that immediately impresses potential employers.</p>
+
+<p>Ha Tran’s content is genuinely exceptional (PhD, 7 projects, 10+ awards, 5 CAD tools), but the default Minima theme buries it. This plan removes Minima entirely and replaces it with fully custom <code class="language-plaintext highlighter-rouge">_layouts</code> and a CSS overhaul — deep navy + amber color palette, hero section, project cards, timeline education, skill badges — all pure HTML/CSS/Jekyll with zero JS dependencies, fully GitHub Pages compatible.</p>
+
+<hr />
+
+<h2 id="color-palette">Color Palette</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Role</th>
+      <th>Color</th>
+      <th>Hex</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Primary</td>
+      <td>Deep navy</td>
+      <td><code class="language-plaintext highlighter-rouge">#1B3A5C</code></td>
+    </tr>
+    <tr>
+      <td>Accent</td>
+      <td>Amber/orange</td>
+      <td><code class="language-plaintext highlighter-rouge">#E8860A</code></td>
+    </tr>
+    <tr>
+      <td>Surface</td>
+      <td>Light grey-white</td>
+      <td><code class="language-plaintext highlighter-rouge">#F4F6F9</code></td>
+    </tr>
+    <tr>
+      <td>Text</td>
+      <td>Dark charcoal</td>
+      <td><code class="language-plaintext highlighter-rouge">#1C1C2E</code></td>
+    </tr>
+    <tr>
+      <td>Links/CTAs</td>
+      <td>Bright blue</td>
+      <td><code class="language-plaintext highlighter-rouge">#2E7DC5</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="phase-1--foundation-everything-else-depends-on-this">Phase 1 — Foundation <em>(everything else depends on this)</em></h2>
+
+<ol>
+  <li>Remove <code class="language-plaintext highlighter-rouge">theme: minima</code> from <code class="language-plaintext highlighter-rouge">_config.yml</code> — no Minima dependency</li>
+  <li>Delete root <code class="language-plaintext highlighter-rouge">style.css</code>, create <code class="language-plaintext highlighter-rouge">assets/css/style.css</code> — full custom stylesheet</li>
+  <li>Create <code class="language-plaintext highlighter-rouge">_layouts/default.html</code> — custom sticky nav header + footer with LinkedIn/email icons</li>
+  <li>Create <code class="language-plaintext highlighter-rouge">_layouts/home.html</code> extending default — needed for hero treatment</li>
+  <li>Define CSS custom properties: color palette, typography scale, spacing system</li>
+</ol>
+
+<blockquote>
+  <p><strong>Typography:</strong> Google Fonts (Inter) via CDN, system font stack fallback. Clean, modern, engineering-appropriate.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="phase-2--home-page-indexmd">Phase 2 — Home Page (<code class="language-plaintext highlighter-rouge">index.md</code>)</h2>
+
+<ol>
+  <li><strong>Hero section</strong> — full-width navy banner, Ha Tran’s name large, engineering title subtitle, two CTA buttons: “Download CV” and “View Projects”. <strong>Gracefully degrades without headshot</strong>: when image is absent the layout shifts to centered text-only hero — no broken image or empty gap</li>
+  <li><strong>About strip</strong> — headshot left (hidden via CSS if image absent), punchy 3-sentence bio right; bio takes full width if no headshot</li>
+  <li><strong>“What I Do” cards</strong> — 3 icon tiles: Mechanical Design · Research &amp; Analysis · Systems Integration</li>
+  <li><strong>Credential highlights bar</strong> — PhD · 5 Industry Projects · 5 CAD Platforms · NZ Citizen / Open to Relocation</li>
+</ol>
+
+<hr />
+
+<h2 id="phase-3--projects-page-projectsmd">Phase 3 — Projects Page (<code class="language-plaintext highlighter-rouge">projects.md</code>)</h2>
+
+<ol>
+  <li><strong>Restyled accordions</strong> — keep <code class="language-plaintext highlighter-rouge">&lt;details&gt;</code>/<code class="language-plaintext highlighter-rouge">&lt;summary&gt;</code> structure, fully restyle: navy header bar with amber toggle indicator, project thumbnail, tech tag chips visible on the summary line</li>
+  <li>Summary line shows title + 1-line scope + tags — scannable without opening; smooth expand animation via CSS <code class="language-plaintext highlighter-rouge">max-height</code> transition</li>
+  <li>Industry tags for visual scanning: <code class="language-plaintext highlighter-rouge">Industrial</code> · <code class="language-plaintext highlighter-rouge">Research</code> · <code class="language-plaintext highlighter-rouge">Marine</code> · <code class="language-plaintext highlighter-rouge">Aerospace</code></li>
+  <li>Fix typos: “intergrated” → “integrated”, “nornal” → “normal”</li>
+</ol>
+
+<hr />
+
+<h2 id="phase-4--skills-page-skillsmd">Phase 4 — Skills Page (<code class="language-plaintext highlighter-rouge">skills.md</code>)</h2>
+
+<ol>
+  <li>Core competencies → <strong>2-column chip/badge grid</strong></li>
+  <li>Software tools → <strong>styled pill badges</strong> (Solid Edge, ANSYS, SolidWorks, etc.)</li>
+  <li>Capability paragraphs → <strong>cards with amber left-border accent</strong></li>
+</ol>
+
+<hr />
+
+<h2 id="phase-5--education-page-educationmd">Phase 5 — Education Page (<code class="language-plaintext highlighter-rouge">education.md</code>)</h2>
+
+<ol>
+  <li>Degrees → <strong>CSS vertical timeline</strong> (year on left, institution + degree right)</li>
+  <li>Awards → <strong>badge list with year chips</strong>, visually distinct from body text</li>
+  <li>Thesis titles → blockquote-styled callouts</li>
+</ol>
+
+<hr />
+
+<h2 id="phase-6--contact-page-contactmd">Phase 6 — Contact Page (<code class="language-plaintext highlighter-rouge">contact.md</code>)</h2>
+
+<ol>
+  <li>Centered card layout with icons for each contact method</li>
+  <li>Large prominent “Download CV” button</li>
+  <li>“Open to relocation” callout badge</li>
+</ol>
+
+<hr />
+
+<h2 id="phase-7--polish">Phase 7 — Polish</h2>
+
+<ol>
+  <li>Mobile-responsive nav (pure CSS hamburger)</li>
+  <li>Hover/focus states on all interactive elements</li>
+  <li>Add <code class="language-plaintext highlighter-rouge">favicon</code> and social meta tags to <code class="language-plaintext highlighter-rouge">_config.yml</code></li>
+</ol>
+
+<hr />
+
+<h2 id="file-inventory">File Inventory</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Action</th>
+      <th>File</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Modify</td>
+      <td><code class="language-plaintext highlighter-rouge">_config.yml</code> — add favicon/meta</td>
+    </tr>
+    <tr>
+      <td>Rewrite</td>
+      <td><code class="language-plaintext highlighter-rouge">index.md</code> — hero + highlights</td>
+    </tr>
+    <tr>
+      <td>Rewrite</td>
+      <td><code class="language-plaintext highlighter-rouge">projects.md</code> — card grid + typo fixes</td>
+    </tr>
+    <tr>
+      <td>Rewrite</td>
+      <td><code class="language-plaintext highlighter-rouge">skills.md</code> — badge/chip layout</td>
+    </tr>
+    <tr>
+      <td>Rewrite</td>
+      <td><code class="language-plaintext highlighter-rouge">education.md</code> — timeline layout</td>
+    </tr>
+    <tr>
+      <td>Rewrite</td>
+      <td><code class="language-plaintext highlighter-rouge">contact.md</code> — icon card layout</td>
+    </tr>
+    <tr>
+      <td>Delete</td>
+      <td><code class="language-plaintext highlighter-rouge">style.css</code> (root)</td>
+    </tr>
+    <tr>
+      <td>Create</td>
+      <td><code class="language-plaintext highlighter-rouge">assets/css/style.css</code> — full custom stylesheet</td>
+    </tr>
+    <tr>
+      <td>Create</td>
+      <td><code class="language-plaintext highlighter-rouge">_layouts/default.html</code></td>
+    </tr>
+    <tr>
+      <td>Create</td>
+      <td><code class="language-plaintext highlighter-rouge">_layouts/home.html</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="decisions--scope">Decisions / Scope</h2>
+
+<ul>
+  <li><strong>No Minima theme</strong> — fully custom <code class="language-plaintext highlighter-rouge">_layouts/default.html</code> and <code class="language-plaintext highlighter-rouge">_layouts/home.html</code></li>
+  <li>Pure HTML/CSS + Jekyll Liquid only — <strong>no JavaScript frameworks</strong></li>
+  <li>Google Fonts (Inter) via CDN, system font fallback</li>
+  <li><strong>Accordions kept</strong> on projects page — restyled, not replaced with card grid</li>
+  <li><strong>Hero degrades gracefully</strong> — text-only layout when headshot image is absent</li>
+  <li>Existing content kept intact — <strong>restructure and restyle only</strong></li>
+  <li>Actual image/video/PDF asset uploads are <strong>out of scope</strong> — assets must be supplied separately</li>
+</ul>
+
+<hr />
+
+<h2 id="verification-checklist">Verification Checklist</h2>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> — all 5 pages render without error</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Browser DevTools confirms <code class="language-plaintext highlighter-rouge">style.scss</code> is loading (currently broken at root)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Mobile viewport at 375px — nav collapses, cards stack correctly</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Mobile viewport at 768px — intermediate layout checks out</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />All CTA links resolve: CV download, LinkedIn, Projects anchor</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />All 7 project cards expand/collapse correctly</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Headshot gracefully degrades if image not yet uploaded</li>
+</ul>
+
+<hr />
+
+<h2 id="resolved-decisions">Resolved Decisions</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Decision</th>
+      <th>Choice</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Theme</td>
+      <td>Remove Minima entirely — fully custom <code class="language-plaintext highlighter-rouge">_layouts</code></td>
+    </tr>
+    <tr>
+      <td>Project page UX</td>
+      <td>Keep <code class="language-plaintext highlighter-rouge">&lt;details&gt;</code> accordions — restyle with CSS</td>
+    </tr>
+    <tr>
+      <td>Headshot</td>
+      <td>Hero degrades gracefully to text-only; no placeholder needed</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <strong>Ha Tran</strong>
+        <span>Mechanical Design Engineer</span>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:tranbaongocha1101@gmail.com" class="footer-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          Email
+        </a>
+        <a href="https://www.linkedin.com/in/ha-tran-940332154" class="footer-link" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+    <p class="footer-copy">New Zealand &nbsp;|&nbsp; NZ Citizen &nbsp;|&nbsp; Open to relocation and international opportunities</p>
+  </footer>
+
+</body>
+</html>

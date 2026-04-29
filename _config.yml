@@ -4,14 +4,8 @@ description: "Mechanical Engineer | Heavy Industrial Machinery | Renewable Energ
 url: "https://hatrannz.github.io"
 baseurl: "/hatran_mechanical_engineer"
 
-theme: minima
-
-header_pages:
-  - index.md
-  - projects.md
-  - skills.md
-  - education.md
-  - contact.md
+kramdown:
+  parse_block_html: true
 
 
 
